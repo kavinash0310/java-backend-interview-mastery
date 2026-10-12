@@ -1,12 +1,12 @@
 # Java Backend and Frontend Interview Mastery
 
-A structured, practical question bank for Java backend and frontend interview preparation. The backend path covers Core Java, Spring Boot, data, messaging, distributed systems, production support, and system design. The frontend path adds HTML, CSS, JavaScript, TypeScript, Angular, RxJS, and frontend testing.
+A structured, practical question bank for Java backend and frontend interview preparation, with a dedicated Java coding-practice track. The backend path covers Core Java, Spring Boot, data, messaging, distributed systems, production support, and system design. The frontend path adds HTML, CSS, JavaScript, TypeScript, Angular, RxJS, and frontend testing.
 
 ## How to use this repository
 
 Start with the learning path below, choose a backend or frontend module, and open its easy, medium, hard, or tricky Q&A set. Use each module guide to navigate its subtopics and official references.
 
-> **Repository status:** The 24 Java backend modules have 40 easy, medium, and hard questions and 30 tricky questions each. The 7 frontend modules have 40 questions at every level. Sets use numbered answers, examples or code where useful, and references.
+> **Repository status:** The course has 24 backend subject modules, one Java coding-practice module, and 7 frontend modules. Backend subject modules have 40 easy, medium, and hard questions and 30 tricky questions each; frontend modules and the coding-practice module have 40 questions at every level. Coding answers include Java solutions and complexity notes.
 
 ## Course map and progress
 
@@ -45,6 +45,7 @@ Mark a module complete for your own study as you finish its material.
 | 29 | [Angular](angular/README.md) | [Easy](angular/easy-interview-questions.md) · [Medium](angular/medium-interview-questions.md) · [Hard](angular/hard-interview-questions.md) · [Tricky](angular/tricky-interview-questions.md) | Build Angular applications with components, templates, signals, dependency injection, forms, routing, HTTP, and production practices. | [ ] |
 | 30 | [RxJS and Reactive Programming](rxjs-reactive-programming/README.md) | [Easy](rxjs-reactive-programming/easy-interview-questions.md) · [Medium](rxjs-reactive-programming/medium-interview-questions.md) · [Hard](rxjs-reactive-programming/hard-interview-questions.md) · [Tricky](rxjs-reactive-programming/tricky-interview-questions.md) | Compose asynchronous streams with mapping, cancellation, sharing, retries, error handling, and lifecycle-aware cleanup. | [ ] |
 | 31 | [Angular and Frontend Testing](angular-testing/README.md) | [Easy](angular-testing/easy-interview-questions.md) · [Medium](angular-testing/medium-interview-questions.md) · [Hard](angular-testing/hard-interview-questions.md) · [Tricky](angular-testing/tricky-interview-questions.md) | Test Angular services, components, forms, routes, HTTP, accessibility, and browser behavior with deterministic test design. | [ ] |
+| 32 | [Java Coding Interview Practice](coding-interview-practice/README.md) | [Easy](coding-interview-practice/easy-interview-questions.md) · [Medium](coding-interview-practice/medium-interview-questions.md) · [Hard](coding-interview-practice/hard-interview-questions.md) · [Tricky](coding-interview-practice/tricky-interview-questions.md) | Solve Java interview problems from warm-ups through mid-level screens and advanced product-company onsite discussions, with code and complexity analysis. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -54,6 +55,7 @@ Learn the Java language and problem-solving basics, then understand concurrency 
 
 - [Core Java](core-java/README.md)
 - [Data Structures and Algorithms](data-structures-algorithms/README.md)
+- [Java Coding Interview Practice](coding-interview-practice/README.md)
 - [Online Assessment Practice](online-assessments/README.md)
 - [Multithreading and Concurrency](multithreading-concurrency/README.md)
 - [JVM and Memory Management](jvm-memory-management/README.md)
@@ -403,6 +405,16 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 </details>
 
+<details>
+<summary>Module 32 — Java Coding Interview Practice</summary>
+
+- [Easy coding questions](coding-interview-practice/easy-interview-questions.md)
+- [Medium coding questions](coding-interview-practice/medium-interview-questions.md)
+- [Hard coding questions](coding-interview-practice/hard-interview-questions.md)
+- [Tricky coding questions](coding-interview-practice/tricky-interview-questions.md)
+
+</details>
+
 ## Interview practice modules
 
 - [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) gives concise applied answers and links to deeper subject guides.
@@ -446,8 +458,8 @@ Example path: `core-java/collections/hashmap-internals.md`.
 
 - `README.md` — course overview, module index, learning path, and contribution workflow.
 - `<module>/README.md` — module description, subtopic links, learning outcomes, and question index.
-- `<module>/<level>-interview-questions.md` — numbered Q&A sets. Backend modules have 40 easy, medium, and hard questions plus 30 tricky questions; frontend modules have 40 at each level.
+- `<module>/<level>-interview-questions.md` — numbered Q&A sets. Backend subject modules have 40 easy, medium, and hard questions plus 30 tricky questions; frontend modules and Java coding practice have 40 at each level.
 - `<module>/<subtopic>/<question>.md` — a focused answer page.
 - `<module>/interview-questions.md` — one guide for a closely related set of questions.
 
-Backend guides link to 40-question easy, medium, and hard sets and a 30-question tricky set. Frontend guides link to 40-question sets at all four levels. Improve an existing answer when a new prompt asks the same thing.
+Backend subject guides link to 40-question easy, medium, and hard sets and a 30-question tricky set. Frontend guides and the Java coding-practice guide link to 40-question sets at all four levels. Improve an existing answer when a new prompt asks the same thing.
