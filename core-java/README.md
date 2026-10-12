@@ -7,6 +7,7 @@
 - Explain core language behavior with small examples.
 - Choose standard library types based on their contracts and trade-offs.
 - Write readable Java that uses modern language features appropriately.
+- Recognize common Java security boundaries and choose standard APIs without treating language features as a sandbox.
 
 ## Subtopic links
 
@@ -16,6 +17,7 @@
 - [Collections framework](#collections-framework)
 - [Exceptions and generics](#exceptions-and-generics)
 - [Java 8 and modern Java](#java-8-and-modern-java)
+- [Security and secure coding](#security-and-secure-coding)
 
 ## Topic coverage
 
@@ -62,6 +64,14 @@
 - Date and Time API
 - Modern language features such as records, sealed types, and pattern matching (version dependent)
 
+### Security and secure coding
+
+- SecureRandom, password hashing, and the difference between hashes, MACs, signatures, and encryption
+- JCA/JCE providers, key material, keystores, truststores, and TLS
+- Input validation, prepared statements, XML parser hardening, and SSRF controls
+- Serialization filters and limits for legacy object streams
+- Defensive copies, safe handling of secrets, and the limits of records, modules, and the Security Manager
+
 ## Where questions belong
 
 Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
@@ -72,6 +82,7 @@ Create a Markdown page for each distinct interview question. Place it in the mat
 - `core-java/collections-framework/` — collections framework question pages
 - `core-java/exceptions-and-generics/` — exceptions and generics question pages
 - `core-java/java-8-and-modern-java/` — java 8 and modern java question pages
+- `core-java/java-security/` — Java platform security and secure coding notes
 
 Use descriptive lowercase kebab-case filenames, for example `core-java/some-topic/question-name.md`. Avoid duplicate questions; improve the existing entry when the intent is the same. Add new entries to this module's question index and link related topics instead of copying answers.
 
@@ -95,10 +106,12 @@ Use descriptive lowercase kebab-case filenames, for example `core-java/some-topi
 - **collections framework:** [ArrayList vs LinkedList](collections-framework/arraylist-vs-linkedlist.md)
 - **java 8 and modern java:** [Streams and lambdas](java-8-and-modern-java/java-8-streams-and-lambdas.md)
 - **java 8 and modern java:** [Functional interfaces](java-8-and-modern-java/functional-interface.md)
+- **security and secure coding:** [Java Security and Secure Coding guide](java-security/README.md)
 
 ## Related modules
 
 - [Module 02: Multithreading and Concurrency](../multithreading-concurrency/README.md)
 - [Module 03: JVM and Memory Management](../jvm-memory-management/README.md)
 - [Module 04: Data Structures and Algorithms](../data-structures-algorithms/README.md)
+- [Module 08: Spring Security](../spring-security/README.md)
 - [Module 14: Design Patterns and Clean Code](../design-patterns-clean-code/README.md)

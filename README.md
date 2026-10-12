@@ -124,6 +124,7 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 - [Collections framework](core-java/README.md#collections-framework)
 - [Exceptions and generics](core-java/README.md#exceptions-and-generics)
 - [Java 8 and modern Java](core-java/README.md#java-8-and-modern-java)
+- [Java Security and Secure Coding](core-java/java-security/README.md)
 
 </details>
 
@@ -188,6 +189,7 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 - [Security foundations](spring-security/README.md#security-foundations)
 - [Tokens and identity protocols](spring-security/README.md#tokens-and-identity-protocols)
+- [OAuth 2.0 and OpenID Connect guide](spring-security/oauth2-oidc-guide.md)
 - [Application security](spring-security/README.md#application-security)
 
 </details>
