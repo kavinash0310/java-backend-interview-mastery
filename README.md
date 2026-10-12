@@ -1,12 +1,12 @@
-# Java Backend Interview Mastery
+# Java Backend and Frontend Interview Mastery
 
-A structured, practical question bank for learning Java backend development and preparing for interviews. Topics range from Core Java and Spring Boot to databases, distributed systems, production support, system design, and complete backend projects.
+A structured, practical question bank for Java backend and frontend interview preparation. The backend path covers Core Java, Spring Boot, data, messaging, distributed systems, production support, and system design. The frontend path adds HTML, CSS, JavaScript, TypeScript, Angular, RxJS, and frontend testing.
 
 ## How to use this repository
 
-Start with the learning path below, choose a module, and open its easy, medium, hard, or tricky Q&A set. Use the module's deeper answer pages and linked references when you want more detail.
+Start with the learning path below, choose a backend or frontend module, and open its easy, medium, hard, or tricky Q&A set. Use each module guide to navigate its subtopics and official references.
 
-> **Repository status:** Every course module has separate easy, medium, and hard Q&A sets with 40 questions each, plus a 30-question tricky set. Each has numbered answers, examples or code where useful, and references.
+> **Repository status:** The 24 Java backend modules have 40 easy, medium, and hard questions and 30 tricky questions each. The 7 frontend modules have 40 questions at every level. Sets use numbered answers, examples or code where useful, and references.
 
 ## Course map and progress
 
@@ -38,6 +38,13 @@ Mark a module complete for your own study as you finish its material.
 | 22 | [Real-World Backend Projects](real-world-backend-projects/README.md) | [Easy](real-world-backend-projects/easy-interview-questions.md) · [Medium](real-world-backend-projects/medium-interview-questions.md) · [Hard](real-world-backend-projects/hard-interview-questions.md) · [Tricky](real-world-backend-projects/tricky-interview-questions.md) | Apply the course concepts to end-to-end backend systems with clear APIs, data models, reliability choices, and deployment notes. | [ ] |
 | 23 | [HR and Managerial Interviews](hr-managerial-interviews/README.md) | [Easy](hr-managerial-interviews/easy-interview-questions.md) · [Medium](hr-managerial-interviews/medium-interview-questions.md) · [Hard](hr-managerial-interviews/hard-interview-questions.md) · [Tricky](hr-managerial-interviews/tricky-interview-questions.md) | Prepare clear, evidence-based answers about project work, decisions, collaboration, and role fit. | [ ] |
 | 24 | [Online Assessment Practice](online-assessments/README.md) | [Easy](online-assessments/easy-interview-questions.md) · [Medium](online-assessments/medium-interview-questions.md) · [Hard](online-assessments/hard-interview-questions.md) · [Tricky](online-assessments/tricky-interview-questions.md) | Review coding patterns, Java and DBMS fundamentals, exception handling, and basic aptitude. | [ ] |
+| 25 | [HTML and Web Accessibility](html-accessibility/README.md) | [Easy](html-accessibility/easy-interview-questions.md) · [Medium](html-accessibility/medium-interview-questions.md) · [Hard](html-accessibility/hard-interview-questions.md) · [Tricky](html-accessibility/tricky-interview-questions.md) | Build semantic documents, accessible forms and controls, keyboard-friendly interactions, and inclusive page structure. | [ ] |
+| 26 | [CSS, Layout, and Responsive Design](css-responsive-design/README.md) | [Easy](css-responsive-design/easy-interview-questions.md) · [Medium](css-responsive-design/medium-interview-questions.md) · [Hard](css-responsive-design/hard-interview-questions.md) · [Tricky](css-responsive-design/tricky-interview-questions.md) | Understand the cascade, layout sizing, Flexbox, Grid, responsive patterns, motion preferences, and visual accessibility. | [ ] |
+| 27 | [JavaScript and Browser Fundamentals](javascript-browser/README.md) | [Easy](javascript-browser/easy-interview-questions.md) · [Medium](javascript-browser/medium-interview-questions.md) · [Hard](javascript-browser/hard-interview-questions.md) · [Tricky](javascript-browser/tricky-interview-questions.md) | Practice modern JavaScript, DOM events, asynchronous execution, browser APIs, network requests, and safe client-side behavior. | [ ] |
+| 28 | [TypeScript](typescript-language/README.md) | [Easy](typescript-language/easy-interview-questions.md) · [Medium](typescript-language/medium-interview-questions.md) · [Hard](typescript-language/hard-interview-questions.md) · [Tricky](typescript-language/tricky-interview-questions.md) | Use types, narrowing, generics, utility types, and runtime validation boundaries to make frontend code safer. | [ ] |
+| 29 | [Angular](angular/README.md) | [Easy](angular/easy-interview-questions.md) · [Medium](angular/medium-interview-questions.md) · [Hard](angular/hard-interview-questions.md) · [Tricky](angular/tricky-interview-questions.md) | Build Angular applications with components, templates, signals, dependency injection, forms, routing, HTTP, and production practices. | [ ] |
+| 30 | [RxJS and Reactive Programming](rxjs-reactive-programming/README.md) | [Easy](rxjs-reactive-programming/easy-interview-questions.md) · [Medium](rxjs-reactive-programming/medium-interview-questions.md) · [Hard](rxjs-reactive-programming/hard-interview-questions.md) · [Tricky](rxjs-reactive-programming/tricky-interview-questions.md) | Compose asynchronous streams with mapping, cancellation, sharing, retries, error handling, and lifecycle-aware cleanup. | [ ] |
+| 31 | [Angular and Frontend Testing](angular-testing/README.md) | [Easy](angular-testing/easy-interview-questions.md) · [Medium](angular-testing/medium-interview-questions.md) · [Hard](angular-testing/hard-interview-questions.md) · [Tricky](angular-testing/tricky-interview-questions.md) | Test Angular services, components, forms, routes, HTTP, accessibility, and browser behavior with deterministic test design. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -89,6 +96,18 @@ Connect service architecture to system design, operational scenarios, and end-to
 - [Scenario-Based Interview Questions](scenario-based-interview-questions/README.md)
 - [Real-World Backend Projects](real-world-backend-projects/README.md)
 - [HR and Managerial Interviews](hr-managerial-interviews/README.md)
+
+### Phase 6 — Frontend application development
+
+Learn the browser foundations first, then build typed, reactive Angular interfaces and test them.
+
+- [HTML and Web Accessibility](html-accessibility/README.md)
+- [CSS, Layout, and Responsive Design](css-responsive-design/README.md)
+- [JavaScript and Browser Fundamentals](javascript-browser/README.md)
+- [TypeScript](typescript-language/README.md)
+- [Angular](angular/README.md)
+- [RxJS and Reactive Programming](rxjs-reactive-programming/README.md)
+- [Angular and Frontend Testing](angular-testing/README.md)
 
 ## Browse subtopics
 
@@ -314,6 +333,76 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 </details>
 
+<details>
+<summary>Module 25 — HTML and Web Accessibility</summary>
+
+- [Document basics](html-accessibility/easy-interview-questions.md#document-basics)
+- [Structure and forms](html-accessibility/easy-interview-questions.md#structure-and-forms)
+- [Semantics and keyboard access](html-accessibility/easy-interview-questions.md#semantics-and-keyboard-access)
+- [Accessible patterns and edge cases](html-accessibility/easy-interview-questions.md#accessible-patterns-and-edge-cases)
+
+</details>
+
+<details>
+<summary>Module 26 — CSS, Layout, and Responsive Design</summary>
+
+- [CSS basics and cascade](css-responsive-design/easy-interview-questions.md#css-basics-and-cascade)
+- [Box model and layout](css-responsive-design/easy-interview-questions.md#box-model-and-layout)
+- [Responsive and accessible CSS](css-responsive-design/easy-interview-questions.md#responsive-and-accessible-css)
+- [Rendering and layout edge cases](css-responsive-design/easy-interview-questions.md#rendering-and-layout-edge-cases)
+
+</details>
+
+<details>
+<summary>Module 27 — JavaScript and Browser Fundamentals</summary>
+
+- [Language foundations](javascript-browser/easy-interview-questions.md#language-foundations)
+- [DOM and events](javascript-browser/easy-interview-questions.md#dom-and-events)
+- [Async work and APIs](javascript-browser/easy-interview-questions.md#async-work-and-apis)
+- [Runtime behavior and gotchas](javascript-browser/easy-interview-questions.md#runtime-behavior-and-gotchas)
+
+</details>
+
+<details>
+<summary>Module 28 — TypeScript</summary>
+
+- [Types and everyday syntax](typescript-language/easy-interview-questions.md#types-and-everyday-syntax)
+- [Narrowing and generics](typescript-language/easy-interview-questions.md#narrowing-and-generics)
+- [Advanced type design](typescript-language/easy-interview-questions.md#advanced-type-design)
+- [Type system edge cases](typescript-language/easy-interview-questions.md#type-system-edge-cases)
+
+</details>
+
+<details>
+<summary>Module 29 — Angular</summary>
+
+- [Components and templates](angular/easy-interview-questions.md#components-and-templates)
+- [Signals and dependency injection](angular/easy-interview-questions.md#signals-and-dependency-injection)
+- [Forms routing and HTTP](angular/easy-interview-questions.md#forms-routing-and-http)
+- [Production patterns and edge cases](angular/easy-interview-questions.md#production-patterns-and-edge-cases)
+
+</details>
+
+<details>
+<summary>Module 30 — RxJS and Reactive Programming</summary>
+
+- [Observable foundations](rxjs-reactive-programming/easy-interview-questions.md#observable-foundations)
+- [Mapping and combining streams](rxjs-reactive-programming/easy-interview-questions.md#mapping-and-combining-streams)
+- [Errors sharing and lifecycle](rxjs-reactive-programming/easy-interview-questions.md#errors-sharing-and-lifecycle)
+- [Cancellation and operator edge cases](rxjs-reactive-programming/easy-interview-questions.md#cancellation-and-operator-edge-cases)
+
+</details>
+
+<details>
+<summary>Module 31 — Angular and Frontend Testing</summary>
+
+- [Testing foundations and setup](angular-testing/easy-interview-questions.md#testing-foundations-and-setup)
+- [Components services and HTTP](angular-testing/easy-interview-questions.md#components-services-and-http)
+- [Browser interaction and accessibility](angular-testing/easy-interview-questions.md#browser-interaction-and-accessibility)
+- [Reliability and test design](angular-testing/easy-interview-questions.md#reliability-and-test-design)
+
+</details>
+
 ## Interview practice modules
 
 - [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) gives concise applied answers and links to deeper subject guides.
@@ -357,8 +446,8 @@ Example path: `core-java/collections/hashmap-internals.md`.
 
 - `README.md` — course overview, module index, learning path, and contribution workflow.
 - `<module>/README.md` — module description, subtopic links, learning outcomes, and question index.
-- `<module>/<level>-interview-questions.md` — 40-question easy, medium, or hard practice set, or a 30-question tricky set, with answers and references.
+- `<module>/<level>-interview-questions.md` — numbered Q&A sets. Backend modules have 40 easy, medium, and hard questions plus 30 tricky questions; frontend modules have 40 at each level.
 - `<module>/<subtopic>/<question>.md` — a focused answer page.
 - `<module>/interview-questions.md` — one guide for a closely related set of questions.
 
-Each module guide links to 40-question easy, medium, and hard Q&A sets plus a 30-question tricky set alongside the existing deeper answers. Improve an existing answer when a new prompt asks the same thing.
+Backend guides link to 40-question easy, medium, and hard sets and a 30-question tricky set. Frontend guides link to 40-question sets at all four levels. Improve an existing answer when a new prompt asks the same thing.
