@@ -1,0 +1,59 @@
+# Module 22 — Real-World Backend Projects
+
+> **Module guide:** Apply the course concepts to end-to-end backend systems with clear APIs, data models, reliability choices, and deployment notes.
+
+## Learning outcomes
+
+- Turn requirements into APIs, data models, and service boundaries.
+- Document reliability, security, and consistency decisions.
+- Connect implementation details to the design trade-offs discussed in interviews.
+
+## Subtopic links
+
+- [Core application projects](#core-application-projects)
+- [Transactions and asynchronous workflows](#transactions-and-asynchronous-workflows)
+- [System design projects](#system-design-projects)
+
+## Topic coverage
+
+### Core application projects
+
+- Authentication service
+- Employee management system
+- E-commerce backend
+- Inventory management
+
+### Transactions and asynchronous workflows
+
+- Order and payment processing
+- Notification service
+- Event-driven order processing
+
+### System design projects
+
+- URL shortener
+- Booking system
+- Microservices-based applications
+- Project architecture, data model, API contract, and deployment plan
+
+## Where questions belong
+
+Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+
+- `real-world-backend-projects/core-application-projects/` — core application projects question pages
+- `real-world-backend-projects/transactions-and-asynchronous-workflows/` — transactions and asynchronous workflows question pages
+- `real-world-backend-projects/system-design-projects/` — system design projects question pages
+
+Use descriptive lowercase kebab-case filenames, for example `real-world-backend-projects/some-topic/question-name.md`. Avoid duplicate questions; improve the existing entry when the intent is the same. Add new entries to this module's question index and link related topics instead of copying answers.
+
+## Question index
+
+_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+
+## Related modules
+
+- [Module 13: Microservices Architecture](../microservices-architecture/README.md)
+- [Module 15: Testing](../testing/README.md)
+- [Module 17: Docker, Kubernetes and CI/CD](../docker-kubernetes-cicd/README.md)
+- [Module 19: Logging, Monitoring and Observability](../logging-monitoring-observability/README.md)
+- [Module 20: System Design and Architecture](../system-design-architecture/README.md)
