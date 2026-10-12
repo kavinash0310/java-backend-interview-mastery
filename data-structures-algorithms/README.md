@@ -53,6 +53,7 @@ Use descriptive lowercase kebab-case filenames, for example `data-structures-alg
 - [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [40-question medium-level Q&A for interview practice](medium-interview-questions.md)
 - [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
+- [30-question tricky Q&A for common interview traps](tricky-interview-questions.md)
 - [Coding interview questions: strings, lists, and arrays](coding-interview-questions.md)
 
 ## Related modules
