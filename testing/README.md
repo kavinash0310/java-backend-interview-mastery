@@ -55,6 +55,7 @@ Use descriptive lowercase kebab-case filenames, for example `testing/some-topic/
 - [40-question medium-level Q&A for interview practice](medium-interview-questions.md)
 - [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
 - [30-question tricky Q&A for common interview traps](tricky-interview-questions.md)
+- [Mockito and legacy mocking follow-ups](interview-questions.md)
 
 
 ## Related modules

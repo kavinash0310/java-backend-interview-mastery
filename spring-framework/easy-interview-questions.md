@@ -70,7 +70,7 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 ### Q17. What is Spring AOP?
 
-**Answer:** It applies cross-cutting behavior such as transactions around method calls, commonly through proxies, keeping business code focused.
+**Answer:** Spring AOP applies cross-cutting behavior—such as transactions, security, caching, or logging—around Spring-managed method calls. An aspect defines advice and the pointcut that selects calls; proxy-based advice runs when a call crosses the proxy. Self-invocation can bypass that proxy, so AOP is not a substitute for ordinary business-flow design.
 
 ### Q18. What is a Spring proxy?
 
@@ -144,7 +144,7 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 ### Q32. What happens if two beans have the same type?
 
-**Answer:** Spring may need a qualifier or a primary bean to resolve which one to inject.
+**Answer:** If multiple beans match one required injection point, Spring cannot choose and normally fails with a `NoUniqueBeanDefinitionException`. Use `@Qualifier` to select the intended bean, `@Primary` for a deliberate default, or inject a collection when the caller needs all implementations.
 
 **Example:** Use `@Qualifier("emailSender")` to choose one.
 

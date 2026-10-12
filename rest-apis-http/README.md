@@ -13,6 +13,7 @@
 - [HTTP and REST foundations](#http-and-rest-foundations)
 - [API contracts and usability](#api-contracts-and-usability)
 - [Cross-cutting web concerns](#cross-cutting-web-concerns)
+- [Client-side API integration](#client-side-api-integration)
 
 ## Topic coverage
 
@@ -37,6 +38,12 @@
 - Caching and conditional requests
 - Rate limiting and request size limits
 
+
+### Client-side API integration
+
+- Promise versus Observable for one-shot and streaming reads
+- Canceling superseded search and quote requests with RxJS
+
 ## Where questions belong
 
 Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
@@ -53,6 +60,7 @@ Use descriptive lowercase kebab-case filenames, for example `rest-apis-http/some
 - [40-question medium-level Q&A for interview practice](medium-interview-questions.md)
 - [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
 - [30-question tricky Q&A for common interview traps](tricky-interview-questions.md)
+- [RxJS and latest-request API client follow-up](interview-questions.md)
 
 
 ## Related modules

@@ -13,6 +13,7 @@
 - [Requirements and estimation](#requirements-and-estimation)
 - [Scalable building blocks](#scalable-building-blocks)
 - [Trade-offs and design exercises](#trade-offs-and-design-exercises)
+- [HLD interview walkthrough](#hld-interview-walkthrough)
 
 ## Topic coverage
 
@@ -37,6 +38,18 @@
 - High-level design
 - Low-level design
 - Architecture review and bottleneck analysis
+
+
+## HLD interview walkthrough
+
+Work through the design in this order:
+
+1. Clarify traffic, read/write mix, latency goals, availability, and consistency needs.
+2. Define the API, data ownership, schema, and main synchronous request path.
+3. Estimate capacity and identify the likely bottlenecks before choosing caches, replicas, partitions, or autoscaling.
+4. Decide what must be synchronous and what can use Kafka or another queue; explain keys, ordering, offsets, retries, and dead-letter handling.
+5. Cover idempotency, rate limits, timeouts, circuit breakers, and behavior when a dependency fails.
+6. Close with observability, recovery, security, and the trade-offs you would revisit if traffic grew.
 
 ## Where questions belong
 

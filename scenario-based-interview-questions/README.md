@@ -56,6 +56,7 @@ Use descriptive lowercase kebab-case filenames, for example `scenario-based-inte
 - [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
 - [30-question tricky Q&A for common interview traps](tricky-interview-questions.md)
 - [Production scenario practice](production-scenarios.md)
+- [Cross-environment deployment scenario](interview-questions.md)
 
 ## Related modules
 

@@ -60,7 +60,7 @@ These 30 questions focus on edge cases, misleading assumptions, and details that
 
 ### Q14. Two app instances process the same scheduled job. What protects correctness?
 
-**Answer:** A durable claim/lease plus idempotent handler. Do not rely on an in-memory singleton.
+**Answer:** An in-memory lock or Spring singleton only coordinates one process. Use shared coordination—such as a database-backed lease or a scheduler designed for clustered execution—and make each job run idempotent. Persist job identity/checkpoints and protect business effects with unique constraints or conditional updates. A lease can expire while old work is still running, so use fencing or version checks when overlap would corrupt state; a lock alone is not an exactly-once guarantee.
 
 ### Q15. A cache invalidation is sent before SQL commit. What race can repopulate stale data?
 

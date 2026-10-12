@@ -86,7 +86,7 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 ### Q21. What is API versioning?
 
-**Answer:** A way to evolve an API while managing compatibility with existing clients. Prefer backward-compatible changes when possible.
+**Answer:** API versioning gives clients a stable contract while a breaking change is introduced. Prefer additive, backward-compatible changes first. For a true breaking change, publish a new version (commonly a path such as `/v2` or a documented media-type version), run old and new versions during a migration window, measure client adoption, publish a deprecation date, then retire the old contract deliberately.
 
 ### Q22. What is backward compatibility in an API?
 

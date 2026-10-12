@@ -16,9 +16,8 @@ A transaction covers only work managed by that transaction manager. A database r
 
 ## How do you handle exceptions globally?
 
-In a Spring MVC API, use <code>@RestControllerAdvice</code> with focused <code>@ExceptionHandler</code> methods. Map known validation and domain failures to stable status codes and a small error response. Log unexpected failures with a request or trace ID, but do not return stack traces or internal details to the caller.
+Use `@RestControllerAdvice` with focused `@ExceptionHandler` methods. Map known exceptions to intentional statuses—for example, `ResourceNotFound` to 404 and `InvalidException` to 400 or 422 according to the API contract—and return the same documented error shape, such as a stable code, safe message, request path, and trace ID. On supported Spring versions, `ProblemDetail` is a standard option; older applications can use a small DTO. Log unexpected failures with the trace ID, but do not return stack traces, SQL, or internal hostnames. See [Spring MVC error responses](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-ann-rest-exceptions.html).
 
-The same error shape across endpoints makes clients simpler and keeps controller methods focused on normal flow.
 
 ## LazyInitializationException in production
 

@@ -68,7 +68,7 @@ These 30 questions focus on edge cases, misleading assumptions, and details that
 
 ### Q16. Why might a trace show a database call as fast while the request is slow?
 
-**Answer:** Queue wait, serialization, lock contention, or app work may be outside the span. Instrument the full critical path.
+**Answer:** The database span may measure only query execution. The request can spend time waiting for a connection, a worker thread, a lock, or a downstream response, or in serialization and response transfer outside that span. Compare the full server trace with pool-acquisition, queue, and serialization timings; add spans around missing work before changing the SQL.
 
 ### Q17. What happens when async work loses MDC context?
 

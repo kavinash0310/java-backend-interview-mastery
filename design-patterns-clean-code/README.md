@@ -14,6 +14,7 @@
 - [Creational patterns](#creational-patterns)
 - [Behavioral and structural patterns](#behavioral-and-structural-patterns)
 - [Code quality and evolution](#code-quality-and-evolution)
+- [Low-level design practice](#low-level-design-practice)
 
 ## Topic coverage
 
@@ -43,6 +44,19 @@
 - Refactoring safely
 - Maintainability and extensibility
 - Avoiding unnecessary abstraction
+
+
+## Low-level design practice
+
+Practice these small systems by defining the main objects and interfaces first, then explain state transitions, concurrency, and failure handling:
+
+- **Delayed payment scheduler:** retries, duplicate triggers, idempotency, and payment status.
+- **Coupon system:** eligibility, expiry, usage limits, and concurrent redemption.
+- **Parking lot:** spot allocation, pricing rules, and concurrent entry/exit.
+- **Vending machine:** inventory, payment, state transitions, and refunds.
+- **Splitwise:** expense splitting, rounding, balances, and settlement.
+
+For every exercise, explain why responsibilities are separated and how you would test race conditions. The [medium](medium-interview-questions.md) and [hard](hard-interview-questions.md) sets cover related design trade-offs.
 
 ## Where questions belong
 

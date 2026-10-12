@@ -13,6 +13,7 @@
 - [Core application projects](#core-application-projects)
 - [Transactions and asynchronous workflows](#transactions-and-asynchronous-workflows)
 - [System design projects](#system-design-projects)
+- [Project interview walkthrough](#project-interview-walkthrough)
 
 ## Topic coverage
 
@@ -36,6 +37,18 @@
 - Microservices-based applications
 - Project architecture, data model, API contract, and deployment plan
 
+
+## Project interview walkthrough
+
+When explaining a project, be ready to cover:
+
+- The user problem, request flow, service boundaries, data model, and your own contribution.
+- Why the team chose each major technology and what alternatives or trade-offs were considered.
+- What happens during duplicate events, downstream failures, retries, partial completion, and data recovery.
+- How the system is monitored, deployed, and rolled back, and what would need to change at ten times the traffic.
+
+See the [project follow-up Q&A](interview-questions.md) for batch-processing and AWS identity examples.
+
 ## Where questions belong
 
 Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
@@ -52,6 +65,7 @@ Use descriptive lowercase kebab-case filenames, for example `real-world-backend-
 - [40-question medium-level Q&A for interview practice](medium-interview-questions.md)
 - [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
 - [30-question tricky Q&A for common interview traps](tricky-interview-questions.md)
+- [Spring Batch, Kafka, and AWS project follow-ups](interview-questions.md)
 
 
 ## Related modules

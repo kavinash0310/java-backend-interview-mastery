@@ -36,9 +36,8 @@ Keep business rules in the service that owns them. A gateway can simplify client
 
 ## An API receives 100,000 requests per minute. How would you scale it?
 
-That averages about 1,667 requests per second, but the peak and request cost matter more than the average. Ask about read/write mix, payload, latency target, geographic spread, and downstream limits. Measure first, then scale stateless service instances horizontally, use a load balancer, cache safe reads, and move noncritical work to a queue.
+That average is about 1,667 requests per second; a 10,000-requests-per-second peak is a different capacity target. Clarify peak shape, read/write mix, payload size, latency and availability goals, and downstream limits. Measure the current bottleneck and load-test a representative workload. Keep the request tier stateless and scale it behind a load balancer; cache only reads that tolerate the chosen freshness, and move noncritical work off the synchronous path. Protect the database with bounded pools and concurrency, then add replicas or partitioning only when measurements show the database is limiting. Include rate limits, load shedding, headroom, and a rollback plan.
 
-Use connection pools and bounded concurrency so the service does not overwhelm its database. Partition or shard only after the workload shows that a single datastore is the bottleneck. Add load shedding and rate limits to protect the system under peaks.
 
 ## How would you debug a slow production API?
 

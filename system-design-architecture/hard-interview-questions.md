@@ -30,7 +30,7 @@ This set builds on the [medium Q&A](medium-interview-questions.md). The question
 
 ### Q7. How do you decide whether a read replica is sufficient for scale?
 
-**Answer:** Estimate read load, replica lag tolerance, and query mix; replicas do not help write bottlenecks and may make read-after-write stale.
+**Answer:** Estimate read volume and query cost, then compare them with database and application limits. A replica helps distribute eligible reads, but it does not reduce write load and may lag, so route read-after-write or freshness-critical reads to the primary. Also consider query/index fixes, a cache for stale-safe data, and a derived read model for expensive aggregations. Measure replica lag and connection-pool saturation before adding replicas.
 
 ### Q8. What is the difference between a transactional database partition and a distributed shard?
 

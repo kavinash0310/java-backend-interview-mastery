@@ -8,9 +8,8 @@ Authentication answers “who is calling?” Authorization answers “what may t
 
 ## How does JWT authentication work?
 
-After a user authenticates, the identity provider issues a signed token with claims such as subject, issuer, audience, and expiry. The client sends it in the Authorization header as a Bearer token. The API validates the signature and relevant claims before building an authenticated principal for authorization.
+A typical signed JWT (JWS) has three Base64URL-encoded parts: header, payload, and signature. The payload carries claims; Base64URL encoding is not encryption. After login, the issuer signs the token and the client sends it as `Authorization: Bearer ...` over TLS. The resource server selects a key from a trusted key set, verifies the allowed algorithm and signature, then checks claims such as issuer, audience, expiry, and not-before before creating the authenticated principal. Authorization still checks what that principal may do. Keep tokens short-lived and out of logs. See [RFC 7519](https://www.rfc-editor.org/rfc/rfc7519) and [Spring Security JWT resource servers](https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html).
 
-A signed JWT is usually readable by its holder; signing protects integrity, not confidentiality. Keep access tokens short-lived, validate issuer and audience, and never put passwords or sensitive personal data in claims. See [RFC 7519](https://www.rfc-editor.org/rfc/rfc7519).
 
 ## How do you send a JWT from one service to another?
 

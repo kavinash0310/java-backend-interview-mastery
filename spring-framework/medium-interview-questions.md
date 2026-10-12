@@ -18,7 +18,7 @@ This set goes a step beyond the [easy Q&A](easy-interview-questions.md). Try ans
 
 ### Q3. What does injecting a prototype bean into a singleton actually do?
 
-**Answer:** The prototype is normally resolved when the singleton is created, so the singleton keeps one instance unless it requests a new one through a provider or lookup.
+**Answer:** Spring resolves the prototype when it creates the singleton, so the singleton keeps that one injected instance. To obtain a fresh instance per operation, inject an `ObjectProvider<PrototypeBean>` and call `getObject()` when needed, or use a scoped proxy/lookup method. Prototype scope does not make shared mutable state thread-safe.
 
 **Example:** Inject `ObjectProvider<TaskState>` and call `getObject()` when needed.
 

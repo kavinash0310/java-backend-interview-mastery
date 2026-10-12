@@ -4,7 +4,7 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 ### Q1. How should you answer “Tell me about yourself”?
 
-**Answer:** Give a short work-focused summary: your background, relevant experience, one strength, and how it connects to the role. Keep personal history relevant.
+**Answer:** Keep it to about a minute: say what kind of engineer you are, name the technologies you have actually used (for example Java and Spring Boot, plus the database, messaging, or cloud tools relevant to this role), give one result you owned, and connect that experience to the job. A useful frame is: “I work mainly with [your real stack]. Recently I owned [problem] and [measured result]. I’m now looking for a role where I can [relevant next step].” Do not recite a tool list or claim experience you do not have.
 
 ### Q2. What are your strengths?
 
