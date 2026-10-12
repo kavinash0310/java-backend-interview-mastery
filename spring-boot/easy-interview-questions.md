@@ -154,11 +154,11 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** A database health indicator can check connectivity.
 
-### Q35. What is a custom health indicator?
+### Q35. What is a database migration tool in a Boot project?
 
-**Answer:** A small component that reports the health of an application dependency or capability.
+**Answer:** A tool such as Flyway or Liquibase applies versioned schema changes consistently during deployment.
 
-**Example:** A health indicator can check a required external service.
+**Example:** Commit each migration as a reviewed, ordered file.
 
 ### Q36. What is a DTO?
 

@@ -154,17 +154,17 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** `@ManyToOne` maps each order to one customer.
 
-### Q35. What is the owning side of a JPA relationship?
+### Q35. What is a fetch join in JPQL?
 
-**Answer:** The side whose mapping controls the foreign-key update; changes should keep both Java sides in sync.
+**Answer:** A query instruction that fetches a relationship as part of the query, which can help avoid N+1 reads when used carefully.
 
-**Example:** A many-to-one side commonly owns the foreign key.
+**Example:** `select o from Order o join fetch o.items`
 
-### Q36. What does cascade persist mean?
+### Q36. What does @Embeddable mean in JPA?
 
-**Answer:** Persisting a parent also persists related objects configured for that cascade.
+**Answer:** It marks a value type whose fields are stored as part of an owning entity rather than in a separate entity table.
 
-**Example:** Use it only when the child lifecycle belongs to the parent.
+**Example:** An Address can be embedded in a Customer entity.
 
 ### Q37. What is an entity graph?
 

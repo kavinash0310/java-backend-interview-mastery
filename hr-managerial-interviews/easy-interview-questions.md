@@ -110,11 +110,11 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** Keep the example respectful and specific.
 
-### Q26. How do you respond to a missed deadline?
+### Q26. How do you handle an unexpected change in scope?
 
-**Answer:** Own the cause, explain when you raised the risk, state the impact, and share how you adjusted the plan.
+**Answer:** Confirm the new requirement, estimate its impact, and agree with stakeholders on what moves or changes.
 
-**Example:** Do not blame teammates or hide the delay.
+**Example:** Make the trade-off visible before work is committed.
 
 ### Q27. How do you prioritize competing tasks?
 
@@ -122,17 +122,17 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** Clarify what will be delayed when a new critical task arrives.
 
-### Q28. How do you handle an angry stakeholder?
+### Q28. How do you ask for help when you are blocked?
 
-**Answer:** Listen, confirm the impact, avoid arguing, and agree on a clear update and next step.
+**Answer:** Explain what you tried, what evidence you have, and the specific help or decision you need.
 
-**Example:** Give a realistic time for the next update.
+**Example:** Bring a small reproduction or clear options.
 
-### Q29. How do you respond when you receive critical feedback?
+### Q29. How do you respond to conflicting instructions?
 
-**Answer:** Ask for an example, reflect on what to change, and follow up with visible improvement.
+**Answer:** Clarify the goal and deadline with both owners, explain the conflict, and ask them to agree on priority.
 
-**Example:** Separate the feedback from your intent.
+**Example:** Summarize the decision in writing so everyone has the same understanding.
 
 ### Q30. How do you support a teammate who is blocked?
 
@@ -170,11 +170,11 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** Ask teammates where decisions and runbooks are documented.
 
-### Q36. How do you handle a task you disagree with?
+### Q36. How do you encourage an inclusive team discussion?
 
-**Answer:** Raise concerns respectfully with evidence, understand the decision, and support the agreed plan unless it creates serious risk.
+**Answer:** Invite quieter voices, ask people to explain their reasoning, and keep the discussion focused on the decision and evidence.
 
-**Example:** Suggest a measurable way to review the result.
+**Example:** Offer a round-robin before the team settles on a design.
 
 ### Q37. How do you describe your leadership without a manager title?
 
@@ -194,11 +194,11 @@ Quick revision answers. Try answering in your own words before reading the expla
 
 **Example:** “What would success look like after six months?”
 
-### Q40. How do you close an interview?
+### Q40. How do you answer “Why should we hire you?”
 
-**Answer:** Thank the interviewer, restate your interest, and briefly connect your experience to the role.
+**Answer:** Connect two or three proven strengths to the role's needs and support each with a short example.
 
-**Example:** Keep it genuine and concise.
+**Example:** Avoid making claims you cannot demonstrate.
 
 ## References
 
