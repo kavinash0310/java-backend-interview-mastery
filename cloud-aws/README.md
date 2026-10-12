@@ -51,6 +51,7 @@ Use descriptive lowercase kebab-case filenames, for example `cloud-aws/some-topi
 
 - [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [40-question medium-level Q&A for interview practice](medium-interview-questions.md)
+- [40-question hard-level Q&A for advanced interview practice](hard-interview-questions.md)
 - [Cloud and AWS interview questions](interview-questions.md)
 
 ## Related modules
