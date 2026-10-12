@@ -47,7 +47,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `multithreading-concurrency/threads-and-tasks/` — threads and tasks question pages
 - `multithreading-concurrency/shared-state-and-coordination/` — shared state and coordination question pages
@@ -58,7 +58,7 @@ Use descriptive lowercase kebab-case filenames, for example `multithreading-conc
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [Multithreading and concurrency questions](interview-questions.md)
 
 ## Related modules
 

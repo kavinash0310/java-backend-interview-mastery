@@ -38,7 +38,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `real-world-backend-projects/core-application-projects/` — core application projects question pages
 - `real-world-backend-projects/transactions-and-asynchronous-workflows/` — transactions and asynchronous workflows question pages

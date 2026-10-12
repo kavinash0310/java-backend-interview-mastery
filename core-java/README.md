@@ -64,7 +64,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `core-java/fundamentals-and-syntax/` — fundamentals and syntax question pages
 - `core-java/object-oriented-programming/` — object-oriented programming question pages
@@ -77,7 +77,20 @@ Use descriptive lowercase kebab-case filenames, for example `core-java/some-topi
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- **strings and core object contracts:** [== vs equals()](strings-and-core-object-contracts/reference-equality-vs-object-equality.md)
+- **object oriented programming:** [Interface vs abstract class](object-oriented-programming/interface-vs-abstract-class.md)
+- **object oriented programming:** [The four pillars of OOP](object-oriented-programming/four-pillars-of-object-oriented-programming.md)
+- **object oriented programming:** [Overloading vs overriding](object-oriented-programming/method-overloading-vs-overriding.md)
+- **object oriented programming:** [The diamond problem in Java](object-oriented-programming/diamond-problem-java.md)
+- **object oriented programming:** [Creating an immutable class](object-oriented-programming/creating-immutable-classes.md)
+- **strings and core object contracts:** [Why String is immutable](strings-and-core-object-contracts/string-immutability.md)
+- **strings and core object contracts:** [equals() and hashCode() contract](strings-and-core-object-contracts/equals-hashcode-contract.md)
+- **collections framework:** [How HashMap works internally](collections-framework/hashmap-internals.md)
+- **collections framework:** [HashMap vs ConcurrentHashMap](collections-framework/hashmap-vs-concurrenthashmap.md)
+- **collections framework:** [HashMap vs LinkedHashMap vs TreeMap](collections-framework/hashmap-linkedhashmap-treemap.md)
+- **collections framework:** [ArrayList vs LinkedList](collections-framework/arraylist-vs-linkedlist.md)
+- **java 8 and modern java:** [Streams and lambdas](java-8-and-modern-java/java-8-streams-and-lambdas.md)
+- **java 8 and modern java:** [Functional interfaces](java-8-and-modern-java/functional-interface.md)
 
 ## Related modules
 

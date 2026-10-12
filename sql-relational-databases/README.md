@@ -39,7 +39,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `sql-relational-databases/sql-and-schema-design/` — sql and schema design question pages
 - `sql-relational-databases/indexes-and-query-performance/` — indexes and query performance question pages
@@ -49,7 +49,7 @@ Use descriptive lowercase kebab-case filenames, for example `sql-relational-data
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [SQL and database interview questions](interview-questions.md)
 
 ## Related modules
 

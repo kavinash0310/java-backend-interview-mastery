@@ -41,7 +41,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `scenario-based-interview-questions/latency-and-capacity-incidents/` — latency and capacity incidents question pages
 - `scenario-based-interview-questions/data-and-dependency-failures/` — data and dependency failures question pages
@@ -51,7 +51,7 @@ Use descriptive lowercase kebab-case filenames, for example `scenario-based-inte
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [Production scenario practice](production-scenarios.md)
 
 ## Related modules
 

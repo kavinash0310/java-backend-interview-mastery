@@ -39,7 +39,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `build-tools-version-control/build-tools/` — build tools question pages
 - `build-tools-version-control/git-workflows/` — git workflows question pages

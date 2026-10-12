@@ -46,7 +46,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `design-patterns-clean-code/design-principles/` — design principles question pages
 - `design-patterns-clean-code/creational-patterns/` — creational patterns question pages

@@ -40,7 +40,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `system-design-architecture/requirements-and-estimation/` — requirements and estimation question pages
 - `system-design-architecture/scalable-building-blocks/` — scalable building blocks question pages
@@ -50,7 +50,7 @@ Use descriptive lowercase kebab-case filenames, for example `system-design-archi
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [System design interview questions](interview-questions.md)
 
 ## Related modules
 

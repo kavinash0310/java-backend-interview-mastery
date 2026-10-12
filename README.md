@@ -6,7 +6,7 @@ A structured, practical question bank for learning Java backend development and 
 
 Start with the learning path below, open a module guide, and use its subtopic links to find or add question pages. Each question should explain the idea in plain English, include a concise interview answer, and use examples or code when they help.
 
-> **Repository status:** This is the initial course scaffold. Module guides and topic coverage are present; individual interview answers will be added over time. The question indexes are intentionally empty until questions are written.
+> **Repository status:** The first interview question bank now covers Core Java, concurrency, coding, Spring, databases, distributed systems, production scenarios, online assessments, and HR/managerial interviews. Guides for those subjects link to the canonical answers.
 
 ## Course map and progress
 
@@ -36,6 +36,8 @@ Mark a module complete for your own study as you finish its material.
 | 20 | [System Design and Architecture](system-design-architecture/README.md) | Translate product requirements into backend architectures that meet scale, reliability, consistency, and operational needs. | [ ] |
 | 21 | [Scenario-Based Interview Questions](scenario-based-interview-questions/README.md) | Practice diagnosing realistic backend incidents and explaining a structured path from symptoms to mitigation and prevention. | [ ] |
 | 22 | [Real-World Backend Projects](real-world-backend-projects/README.md) | Apply the course concepts to end-to-end backend systems with clear APIs, data models, reliability choices, and deployment notes. | [ ] |
+| 23 | [HR and Managerial Interviews](hr-managerial-interviews/README.md) | Prepare clear, evidence-based answers about project work, decisions, collaboration, and role fit. | [ ] |
+| 24 | [Online Assessment Practice](online-assessments/README.md) | Review coding patterns, Java and DBMS fundamentals, exception handling, and basic aptitude. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -45,6 +47,7 @@ Learn the Java language and problem-solving basics, then understand concurrency 
 
 - [Core Java](core-java/README.md)
 - [Data Structures and Algorithms](data-structures-algorithms/README.md)
+- [Online Assessment Practice](online-assessments/README.md)
 - [Multithreading and Concurrency](multithreading-concurrency/README.md)
 - [JVM and Memory Management](jvm-memory-management/README.md)
 
@@ -85,6 +88,7 @@ Connect service architecture to system design, operational scenarios, and end-to
 - [System Design and Architecture](system-design-architecture/README.md)
 - [Scenario-Based Interview Questions](scenario-based-interview-questions/README.md)
 - [Real-World Backend Projects](real-world-backend-projects/README.md)
+- [HR and Managerial Interviews](hr-managerial-interviews/README.md)
 
 ## Browse subtopics
 
@@ -296,9 +300,28 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 </details>
 
+<details>
+<summary>Module 23 — HR and Managerial Interviews</summary>
+
+- [Interview questions](hr-managerial-interviews/README.md#question-index)
+
+</details>
+
+<details>
+<summary>Module 24 — Online Assessment Practice</summary>
+
+- [Online assessment questions](online-assessments/README.md#question-index)
+
+</details>
+
+## Interview practice modules
+
+- [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) links incident prompts to the relevant canonical answer.
+- [Online assessment practice](online-assessments/README.md) and [HR/managerial interviews](hr-managerial-interviews/README.md) round out the technical subject modules.
+
 ## Question format
 
-Adapt the sections to the question; simple questions do not need every section.
+Each answer uses the sections that help explain it. Related prompts share a canonical answer when they ask the same thing; scenario indexes link to that answer instead of repeating it.
 
 ```markdown
 # Question
@@ -324,7 +347,7 @@ Before adding a question:
 2. Compare the intent and scope; label a match as exact duplicate, semantic duplicate, related but distinct, or new.
 3. Improve an existing answer when the question is already covered. Create a separate page only for a genuinely different concept.
 4. Check all questions in the same batch against one another.
-5. Use a descriptive lowercase kebab-case filename under the appropriate module and subtopic.
+5. Use a descriptive lowercase kebab-case filename in the matching subtopic, or use a module-level `interview-questions.md` for a closely related set.
 6. Add the new page to that module's **Question index** and link related pages rather than copying content.
 7. Check internal links, code formatting, accuracy, and the final diff before committing.
 
@@ -334,6 +357,7 @@ Example path: `core-java/collections/hashmap-internals.md`.
 
 - `README.md` — course overview, module index, learning path, and contribution workflow.
 - `<module>/README.md` — module description, subtopic links, learning outcomes, and question index.
-- `<module>/<subtopic>/<question>.md` — one interview question and answer per page.
+- `<module>/<subtopic>/<question>.md` — a focused answer page.
+- `<module>/interview-questions.md` — one guide for a closely related set of questions.
 
 The module guides describe the planned coverage. Add question pages as material is prepared; do not create empty question files or duplicate answers.

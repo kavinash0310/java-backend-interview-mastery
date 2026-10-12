@@ -40,7 +40,7 @@
 
 ## Where questions belong
 
-Create one Markdown file for each distinct interview question and place it in the matching subtopic folder. Suggested subtopic folders:
+Create a Markdown page for each distinct interview question. Place it in the matching subtopic folder, or group closely related questions in a module-level interview guide. Suggested subtopic folders:
 
 - `data-structures-algorithms/foundations-and-linear-structures/` — foundations and linear structures question pages
 - `data-structures-algorithms/trees-graphs-and-search/` — trees, graphs, and search question pages
@@ -50,7 +50,7 @@ Use descriptive lowercase kebab-case filenames, for example `data-structures-alg
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [Coding interview questions: strings, lists, and arrays](coding-interview-questions.md)
 
 ## Related modules
 
