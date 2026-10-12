@@ -49,6 +49,7 @@ Use descriptive lowercase kebab-case filenames, for example `logging-monitoring-
 
 ## Question index
 
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [Production debugging and observability questions](scenario-questions.md)
 
 ## Related modules

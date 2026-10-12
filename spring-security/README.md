@@ -49,6 +49,7 @@ Use descriptive lowercase kebab-case filenames, for example `spring-security/som
 
 ## Question index
 
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [Spring Security and JWT interview questions](interview-questions.md)
 
 ## Related modules

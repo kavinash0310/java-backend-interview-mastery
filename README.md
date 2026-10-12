@@ -4,40 +4,40 @@ A structured, practical question bank for learning Java backend development and 
 
 ## How to use this repository
 
-Start with the learning path below, open a module guide, and use its subtopic links to find or add question pages. Each question should explain the idea in plain English, include a concise interview answer, and use examples or code when they help.
+Start with the learning path below, choose a module, and open its beginner Q&A supplement. Use the module's deeper answer pages and linked references when you want more detail.
 
-> **Repository status:** The first interview question bank now covers Core Java, concurrency, coding, Spring, databases, distributed systems, production scenarios, online assessments, and HR/managerial interviews. Guides for those subjects link to the canonical answers.
+> **Repository status:** Every course module now reaches at least 30 distinct questions across its beginner Q&A supplement and existing deep-dive answers. The quick pages use plain language, examples where useful, and primary references.
 
 ## Course map and progress
 
 Mark a module complete for your own study as you finish its material.
 
-| Module | Guide | Scope | Progress |
+| Module | Guide | Quick Q&A | Scope | Progress |
 |---|---|---|---|
-| 01 | [Core Java](core-java/README.md) | Build fluency in the Java language and standard library, from syntax and object-oriented design through collections and modern Java features. | [ ] |
-| 02 | [Multithreading and Concurrency](multithreading-concurrency/README.md) | Understand how Java tasks run concurrently, how shared state is coordinated, and how to build reliable asynchronous work. | [ ] |
-| 03 | [JVM and Memory Management](jvm-memory-management/README.md) | Learn how Java code is loaded and executed, how memory is managed, and how to diagnose runtime and garbage-collection issues. | [ ] |
-| 04 | [Data Structures and Algorithms](data-structures-algorithms/README.md) | Practice the data structures, problem-solving patterns, and complexity analysis used in Java coding interviews. | [ ] |
-| 05 | [Spring Framework](spring-framework/README.md) | Understand Spring's container, dependency injection, bean lifecycle, configuration, and proxy-based features. | [ ] |
-| 06 | [Spring Boot](spring-boot/README.md) | Build and operate Spring applications using Boot auto-configuration, configuration management, REST support, and operational features. | [ ] |
-| 07 | [REST APIs and HTTP](rest-apis-http/README.md) | Design predictable, secure, and documented HTTP APIs with sound resource modeling and client-friendly behavior. | [ ] |
-| 08 | [Spring Security](spring-security/README.md) | Protect backend applications with authentication, authorization, secure credentials, and token-based identity standards. | [ ] |
-| 09 | [SQL and Relational Databases](sql-relational-databases/README.md) | Query and model relational data while understanding indexes, transactions, isolation, and database performance. | [ ] |
-| 10 | [JDBC, JPA and Hibernate](jdbc-jpa-hibernate/README.md) | Connect Java persistence code to relational databases, understand ORM behavior, and avoid common query and consistency problems. | [ ] |
-| 11 | [Redis and Caching](redis-caching/README.md) | Use Redis and application caches to reduce latency and load while managing freshness, eviction, and failure behavior. | [ ] |
-| 12 | [Apache Kafka and Messaging](kafka-messaging/README.md) | Design event-driven flows with Kafka producers, consumers, partitions, delivery semantics, retries, and schema evolution. | [ ] |
-| 13 | [Microservices Architecture](microservices-architecture/README.md) | Design independently deployable services and reason about communication, resilience, discovery, data ownership, and consistency. | [ ] |
-| 14 | [Design Patterns and Clean Code](design-patterns-clean-code/README.md) | Apply object-oriented design principles and patterns to keep backend code understandable, testable, and adaptable. | [ ] |
-| 15 | [Testing](testing/README.md) | Test Java and Spring applications at the right level, from focused unit tests through realistic integration tests. | [ ] |
-| 16 | [Maven, Gradle, Git and GitHub](build-tools-version-control/README.md) | Manage Java dependencies and repeatable builds, and collaborate safely with Git and GitHub workflows. | [ ] |
-| 17 | [Docker, Kubernetes and CI/CD](docker-kubernetes-cicd/README.md) | Package backend services, run them in containers, and understand deployment automation and recovery. | [ ] |
-| 18 | [Cloud and AWS](cloud-aws/README.md) | Understand the cloud building blocks used to deploy, secure, scale, and operate backend applications on AWS. | [ ] |
-| 19 | [Logging, Monitoring and Observability](logging-monitoring-observability/README.md) | Make backend behavior diagnosable through useful logs, metrics, traces, health signals, and incident practices. | [ ] |
-| 20 | [System Design and Architecture](system-design-architecture/README.md) | Translate product requirements into backend architectures that meet scale, reliability, consistency, and operational needs. | [ ] |
-| 21 | [Scenario-Based Interview Questions](scenario-based-interview-questions/README.md) | Practice diagnosing realistic backend incidents and explaining a structured path from symptoms to mitigation and prevention. | [ ] |
-| 22 | [Real-World Backend Projects](real-world-backend-projects/README.md) | Apply the course concepts to end-to-end backend systems with clear APIs, data models, reliability choices, and deployment notes. | [ ] |
-| 23 | [HR and Managerial Interviews](hr-managerial-interviews/README.md) | Prepare clear, evidence-based answers about project work, decisions, collaboration, and role fit. | [ ] |
-| 24 | [Online Assessment Practice](online-assessments/README.md) | Review coding patterns, Java and DBMS fundamentals, exception handling, and basic aptitude. | [ ] |
+| 01 | [Core Java](core-java/README.md) | [Quick Q&A](core-java/easy-interview-questions.md) | Build fluency in the Java language and standard library, from syntax and object-oriented design through collections and modern Java features. | [ ] |
+| 02 | [Multithreading and Concurrency](multithreading-concurrency/README.md) | [Quick Q&A](multithreading-concurrency/easy-interview-questions.md) | Understand how Java tasks run concurrently, how shared state is coordinated, and how to build reliable asynchronous work. | [ ] |
+| 03 | [JVM and Memory Management](jvm-memory-management/README.md) | [Quick Q&A](jvm-memory-management/easy-interview-questions.md) | Learn how Java code is loaded and executed, how memory is managed, and how to diagnose runtime and garbage-collection issues. | [ ] |
+| 04 | [Data Structures and Algorithms](data-structures-algorithms/README.md) | [Quick Q&A](data-structures-algorithms/easy-interview-questions.md) | Practice the data structures, problem-solving patterns, and complexity analysis used in Java coding interviews. | [ ] |
+| 05 | [Spring Framework](spring-framework/README.md) | [Quick Q&A](spring-framework/easy-interview-questions.md) | Understand Spring's container, dependency injection, bean lifecycle, configuration, and proxy-based features. | [ ] |
+| 06 | [Spring Boot](spring-boot/README.md) | [Quick Q&A](spring-boot/easy-interview-questions.md) | Build and operate Spring applications using Boot auto-configuration, configuration management, REST support, and operational features. | [ ] |
+| 07 | [REST APIs and HTTP](rest-apis-http/README.md) | [Quick Q&A](rest-apis-http/easy-interview-questions.md) | Design predictable, secure, and documented HTTP APIs with sound resource modeling and client-friendly behavior. | [ ] |
+| 08 | [Spring Security](spring-security/README.md) | [Quick Q&A](spring-security/easy-interview-questions.md) | Protect backend applications with authentication, authorization, secure credentials, and token-based identity standards. | [ ] |
+| 09 | [SQL and Relational Databases](sql-relational-databases/README.md) | [Quick Q&A](sql-relational-databases/easy-interview-questions.md) | Query and model relational data while understanding indexes, transactions, isolation, and database performance. | [ ] |
+| 10 | [JDBC, JPA and Hibernate](jdbc-jpa-hibernate/README.md) | [Quick Q&A](jdbc-jpa-hibernate/easy-interview-questions.md) | Connect Java persistence code to relational databases, understand ORM behavior, and avoid common query and consistency problems. | [ ] |
+| 11 | [Redis and Caching](redis-caching/README.md) | [Quick Q&A](redis-caching/easy-interview-questions.md) | Use Redis and application caches to reduce latency and load while managing freshness, eviction, and failure behavior. | [ ] |
+| 12 | [Apache Kafka and Messaging](kafka-messaging/README.md) | [Quick Q&A](kafka-messaging/easy-interview-questions.md) | Design event-driven flows with Kafka producers, consumers, partitions, delivery semantics, retries, and schema evolution. | [ ] |
+| 13 | [Microservices Architecture](microservices-architecture/README.md) | [Quick Q&A](microservices-architecture/easy-interview-questions.md) | Design independently deployable services and reason about communication, resilience, discovery, data ownership, and consistency. | [ ] |
+| 14 | [Design Patterns and Clean Code](design-patterns-clean-code/README.md) | [Quick Q&A](design-patterns-clean-code/easy-interview-questions.md) | Apply object-oriented design principles and patterns to keep backend code understandable, testable, and adaptable. | [ ] |
+| 15 | [Testing](testing/README.md) | [Quick Q&A](testing/easy-interview-questions.md) | Test Java and Spring applications at the right level, from focused unit tests through realistic integration tests. | [ ] |
+| 16 | [Maven, Gradle, Git and GitHub](build-tools-version-control/README.md) | [Quick Q&A](build-tools-version-control/easy-interview-questions.md) | Manage Java dependencies and repeatable builds, and collaborate safely with Git and GitHub workflows. | [ ] |
+| 17 | [Docker, Kubernetes and CI/CD](docker-kubernetes-cicd/README.md) | [Quick Q&A](docker-kubernetes-cicd/easy-interview-questions.md) | Package backend services, run them in containers, and understand deployment automation and recovery. | [ ] |
+| 18 | [Cloud and AWS](cloud-aws/README.md) | [Quick Q&A](cloud-aws/easy-interview-questions.md) | Understand the cloud building blocks used to deploy, secure, scale, and operate backend applications on AWS. | [ ] |
+| 19 | [Logging, Monitoring and Observability](logging-monitoring-observability/README.md) | [Quick Q&A](logging-monitoring-observability/easy-interview-questions.md) | Make backend behavior diagnosable through useful logs, metrics, traces, health signals, and incident practices. | [ ] |
+| 20 | [System Design and Architecture](system-design-architecture/README.md) | [Quick Q&A](system-design-architecture/easy-interview-questions.md) | Translate product requirements into backend architectures that meet scale, reliability, consistency, and operational needs. | [ ] |
+| 21 | [Scenario-Based Interview Questions](scenario-based-interview-questions/README.md) | [Quick Q&A](scenario-based-interview-questions/production-scenarios.md) | Practice diagnosing realistic backend incidents and explaining a structured path from symptoms to mitigation and prevention. | [ ] |
+| 22 | [Real-World Backend Projects](real-world-backend-projects/README.md) | [Quick Q&A](real-world-backend-projects/easy-interview-questions.md) | Apply the course concepts to end-to-end backend systems with clear APIs, data models, reliability choices, and deployment notes. | [ ] |
+| 23 | [HR and Managerial Interviews](hr-managerial-interviews/README.md) | [Quick Q&A](hr-managerial-interviews/easy-interview-questions.md) | Prepare clear, evidence-based answers about project work, decisions, collaboration, and role fit. | [ ] |
+| 24 | [Online Assessment Practice](online-assessments/README.md) | [Quick Q&A](online-assessments/easy-interview-questions.md) | Review coding patterns, Java and DBMS fundamentals, exception handling, and basic aptitude. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -316,7 +316,7 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 ## Interview practice modules
 
-- [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) links incident prompts to the relevant canonical answer.
+- [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) gives concise applied answers and links to deeper subject guides.
 - [Online assessment practice](online-assessments/README.md) and [HR/managerial interviews](hr-managerial-interviews/README.md) round out the technical subject modules.
 
 ## Question format
@@ -360,4 +360,4 @@ Example path: `core-java/collections/hashmap-internals.md`.
 - `<module>/<subtopic>/<question>.md` — a focused answer page.
 - `<module>/interview-questions.md` — one guide for a closely related set of questions.
 
-The module guides describe the planned coverage. Add question pages as material is prepared; do not create empty question files or duplicate answers.
+Each module guide links to a beginner Q&A supplement and the existing deeper answers. Improve an existing answer when a new prompt asks the same thing.

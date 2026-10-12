@@ -48,6 +48,7 @@ Use descriptive lowercase kebab-case filenames, for example `redis-caching/some-
 
 ## Question index
 
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [Redis and caching interview questions](interview-questions.md)
 
 ## Related modules

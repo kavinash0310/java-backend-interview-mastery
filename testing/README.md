@@ -51,7 +51,8 @@ Use descriptive lowercase kebab-case filenames, for example `testing/some-topic/
 
 ## Question index
 
-_No question pages have been added to this module yet. This guide records the planned coverage; add links here as questions are written._
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
+
 
 ## Related modules
 

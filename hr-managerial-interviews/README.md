@@ -19,6 +19,7 @@
 
 ## Question index
 
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [HR and managerial interview questions](interview-questions.md)
 
 ## Related modules

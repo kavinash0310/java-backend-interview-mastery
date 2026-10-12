@@ -18,6 +18,7 @@
 
 ## Question index
 
+- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [Online assessment practice](interview-questions.md)
 
 ## Related modules
