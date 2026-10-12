@@ -6,7 +6,7 @@ A structured, practical question bank for Java backend and frontend interview pr
 
 Start with the learning path below, choose a backend, frontend, or senior product-engineering module, and open its easy, medium, hard, or tricky Q&A set. Use each module guide to navigate its subtopics and official references.
 
-> **Repository status:** The course has 24 backend subject modules, one Java coding-practice module, 7 frontend modules, and a senior product engineering and leadership module. Backend subject modules have 40 easy, medium, and hard questions and 30 tricky questions each; frontend, coding-practice, and senior leadership modules have 40 questions at every level. Coding answers include Java solutions and complexity notes.
+> **Repository status:** The course has 24 backend subject modules, one Java coding-practice module, 7 frontend modules, a senior product engineering and leadership module, and a developer tools and delivery workflow module. Backend subject modules have 40 easy, medium, and hard questions and 30 tricky questions each; frontend, coding-practice, senior leadership, and developer-tools modules have 40 questions at every level. Coding answers include Java solutions and complexity notes.
 
 ## Course map and progress
 
@@ -47,6 +47,7 @@ Mark a module complete for your own study as you finish its material.
 | 31 | [Angular and Frontend Testing](angular-testing/README.md) | [Easy](angular-testing/easy-interview-questions.md) · [Medium](angular-testing/medium-interview-questions.md) · [Hard](angular-testing/hard-interview-questions.md) · [Tricky](angular-testing/tricky-interview-questions.md) | Test Angular services, components, forms, routes, HTTP, accessibility, and browser behavior with deterministic test design. | [ ] |
 | 32 | [Java Coding Interview Practice](coding-interview-practice/README.md) | [Easy](coding-interview-practice/easy-interview-questions.md) · [Medium](coding-interview-practice/medium-interview-questions.md) · [Hard](coding-interview-practice/hard-interview-questions.md) · [Tricky](coding-interview-practice/tricky-interview-questions.md) | Solve Java interview problems from warm-ups through mid-level screens and advanced product-company onsite discussions, with code and complexity analysis. | [ ] |
 | 33 | [Senior Product Engineering and Technical Leadership](senior-product-engineering-leadership/README.md) | [Easy](senior-product-engineering-leadership/easy-interview-questions.md) · [Medium](senior-product-engineering-leadership/medium-interview-questions.md) · [Hard](senior-product-engineering-leadership/hard-interview-questions.md) · [Tricky](senior-product-engineering-leadership/tricky-interview-questions.md) | Practice product thinking, senior ownership, safe delivery, operational judgment, and technical leadership across the stack. | [ ] |
+| 34 | [Developer Tools and Delivery Workflow](developer-tools-delivery-workflow/README.md) | [Easy](developer-tools-delivery-workflow/easy-interview-questions.md) · [Medium](developer-tools-delivery-workflow/medium-interview-questions.md) · [Hard](developer-tools-delivery-workflow/hard-interview-questions.md) · [Tricky](developer-tools-delivery-workflow/tricky-interview-questions.md) | Practice IntelliJ, Postman, Jira-style ticketing, Jenkins, API checks, team handoffs, and safe delivery workflows. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -86,6 +87,7 @@ Improve design, testing, delivery, deployment, and observability.
 - [Design Patterns and Clean Code](design-patterns-clean-code/README.md)
 - [Testing](testing/README.md)
 - [Maven, Gradle, Git and GitHub](build-tools-version-control/README.md)
+- [Developer Tools and Delivery Workflow](developer-tools-delivery-workflow/README.md)
 - [Docker, Kubernetes and CI/CD](docker-kubernetes-cicd/README.md)
 - [Cloud and AWS](cloud-aws/README.md)
 - [Logging, Monitoring and Observability](logging-monitoring-observability/README.md)
@@ -435,6 +437,17 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 </details>
 
+<details>
+<summary>Module 34 — Developer Tools and Delivery Workflow</summary>
+
+- [Module guide and change workflow](developer-tools-delivery-workflow/README.md)
+- [Easy questions](developer-tools-delivery-workflow/easy-interview-questions.md)
+- [Medium questions](developer-tools-delivery-workflow/medium-interview-questions.md)
+- [Hard questions](developer-tools-delivery-workflow/hard-interview-questions.md)
+- [Tricky questions](developer-tools-delivery-workflow/tricky-interview-questions.md)
+
+</details>
+
 ## Interview practice modules
 
 - [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) gives concise applied answers and links to deeper subject guides.
@@ -478,8 +491,8 @@ Example path: `core-java/collections/hashmap-internals.md`.
 
 - `README.md` — course overview, module index, learning path, and contribution workflow.
 - `<module>/README.md` — module description, subtopic links, learning outcomes, and question index.
-- `<module>/<level>-interview-questions.md` — numbered Q&A sets. Backend subject modules have 40 easy, medium, and hard questions plus 30 tricky questions; frontend modules and Java coding practice have 40 at each level.
+- `<module>/<level>-interview-questions.md` — numbered Q&A sets. Backend subject modules have 40 easy, medium, and hard questions plus 30 tricky questions; frontend, Java coding practice, senior product engineering, and developer tools have 40 at each level.
 - `<module>/<subtopic>/<question>.md` — a focused answer page.
 - `<module>/interview-questions.md` — one guide for a closely related set of questions.
 
-Backend subject guides link to 40-question easy, medium, and hard sets and a 30-question tricky set. Frontend guides and the Java coding-practice guide link to 40-question sets at all four levels. Improve an existing answer when a new prompt asks the same thing.
+Backend subject guides link to 40-question easy, medium, and hard sets and a 30-question tricky set. Frontend, Java coding-practice, senior product-engineering, and developer-tools guides link to 40-question sets at all four levels. Improve an existing answer when a new prompt asks the same thing.
