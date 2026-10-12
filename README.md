@@ -4,9 +4,9 @@ A structured, practical question bank for Java backend and frontend interview pr
 
 ## How to use this repository
 
-Start with the learning path below, choose a backend or frontend module, and open its easy, medium, hard, or tricky Q&A set. Use each module guide to navigate its subtopics and official references.
+Start with the learning path below, choose a backend, frontend, or senior product-engineering module, and open its easy, medium, hard, or tricky Q&A set. Use each module guide to navigate its subtopics and official references.
 
-> **Repository status:** The course has 24 backend subject modules, one Java coding-practice module, and 7 frontend modules. Backend subject modules have 40 easy, medium, and hard questions and 30 tricky questions each; frontend modules and the coding-practice module have 40 questions at every level. Coding answers include Java solutions and complexity notes.
+> **Repository status:** The course has 24 backend subject modules, one Java coding-practice module, 7 frontend modules, and a senior product engineering and leadership module. Backend subject modules have 40 easy, medium, and hard questions and 30 tricky questions each; frontend, coding-practice, and senior leadership modules have 40 questions at every level. Coding answers include Java solutions and complexity notes.
 
 ## Course map and progress
 
@@ -46,6 +46,7 @@ Mark a module complete for your own study as you finish its material.
 | 30 | [RxJS and Reactive Programming](rxjs-reactive-programming/README.md) | [Easy](rxjs-reactive-programming/easy-interview-questions.md) · [Medium](rxjs-reactive-programming/medium-interview-questions.md) · [Hard](rxjs-reactive-programming/hard-interview-questions.md) · [Tricky](rxjs-reactive-programming/tricky-interview-questions.md) | Compose asynchronous streams with mapping, cancellation, sharing, retries, error handling, and lifecycle-aware cleanup. | [ ] |
 | 31 | [Angular and Frontend Testing](angular-testing/README.md) | [Easy](angular-testing/easy-interview-questions.md) · [Medium](angular-testing/medium-interview-questions.md) · [Hard](angular-testing/hard-interview-questions.md) · [Tricky](angular-testing/tricky-interview-questions.md) | Test Angular services, components, forms, routes, HTTP, accessibility, and browser behavior with deterministic test design. | [ ] |
 | 32 | [Java Coding Interview Practice](coding-interview-practice/README.md) | [Easy](coding-interview-practice/easy-interview-questions.md) · [Medium](coding-interview-practice/medium-interview-questions.md) · [Hard](coding-interview-practice/hard-interview-questions.md) · [Tricky](coding-interview-practice/tricky-interview-questions.md) | Solve Java interview problems from warm-ups through mid-level screens and advanced product-company onsite discussions, with code and complexity analysis. | [ ] |
+| 33 | [Senior Product Engineering and Technical Leadership](senior-product-engineering-leadership/README.md) | [Easy](senior-product-engineering-leadership/easy-interview-questions.md) · [Medium](senior-product-engineering-leadership/medium-interview-questions.md) · [Hard](senior-product-engineering-leadership/hard-interview-questions.md) · [Tricky](senior-product-engineering-leadership/tricky-interview-questions.md) | Practice product thinking, senior ownership, safe delivery, operational judgment, and technical leadership across the stack. | [ ] |
 
 ## Beginner-to-advanced learning path
 
@@ -88,6 +89,7 @@ Improve design, testing, delivery, deployment, and observability.
 - [Docker, Kubernetes and CI/CD](docker-kubernetes-cicd/README.md)
 - [Cloud and AWS](cloud-aws/README.md)
 - [Logging, Monitoring and Observability](logging-monitoring-observability/README.md)
+- [Senior Product Engineering and Technical Leadership](senior-product-engineering-leadership/README.md)
 
 ### Phase 5 — Architecture and practice
 
@@ -422,10 +424,21 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 
 </details>
 
+<details>
+<summary>Module 33 — Senior Product Engineering and Technical Leadership</summary>
+
+- [Product thinking and project deep dive](senior-product-engineering-leadership/README.md#project-deep-dive-checklist)
+- [Easy questions](senior-product-engineering-leadership/easy-interview-questions.md)
+- [Medium questions](senior-product-engineering-leadership/medium-interview-questions.md)
+- [Hard questions](senior-product-engineering-leadership/hard-interview-questions.md)
+- [Tricky questions](senior-product-engineering-leadership/tricky-interview-questions.md)
+
+</details>
+
 ## Interview practice modules
 
 - [Production scenario practice](scenario-based-interview-questions/production-scenarios.md) gives concise applied answers and links to deeper subject guides.
-- [Online assessment practice](online-assessments/README.md) and [HR/managerial interviews](hr-managerial-interviews/README.md) round out the technical subject modules.
+- [Online assessment practice](online-assessments/README.md) and [HR/managerial interviews](hr-managerial-interviews/README.md) round out the technical subject modules. The [Senior Product Engineering and Technical Leadership module](senior-product-engineering-leadership/README.md) focuses on product ownership and senior-level execution.
 
 ## Question format
 
