@@ -243,8 +243,13 @@ Each module guide contains a linked subtopic map, scope notes, related modules, 
 <summary>Module 14 — Design Patterns and Clean Code</summary>
 
 - [Design principles](design-patterns-clean-code/README.md#design-principles)
-- [Creational patterns](design-patterns-clean-code/README.md#creational-patterns)
-- [Behavioral and structural patterns](design-patterns-clean-code/README.md#behavioral-and-structural-patterns)
+- [All 23 GoF patterns](design-patterns-clean-code/README.md#full-pattern-catalog)
+- [Pattern selection and trade-offs](design-patterns-clean-code/pattern-selection-guide.md)
+- [Java application patterns](design-patterns-clean-code/java-application-patterns.md)
+- [Distributed backend patterns](design-patterns-clean-code/distributed-backend-patterns.md)
+- [Java concurrency patterns](design-patterns-clean-code/java-concurrency-patterns.md)
+- [Architecture patterns and styles](design-patterns-clean-code/architecture-patterns.md)
+- [Domain-Driven Design patterns](design-patterns-clean-code/domain-driven-design-patterns.md)
 - [Code quality and evolution](design-patterns-clean-code/README.md#code-quality-and-evolution)
 
 </details>
