@@ -2,39 +2,39 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What is a design pattern?
+### Q1. What is a design pattern?
 
 **Answer:** A reusable way to describe a common design problem and a family of solutions. It is a starting point, not code to apply automatically.
 
-### Q02. What is the Single Responsibility Principle?
+### Q2. What is the Single Responsibility Principle?
 
 **Answer:** A class should have one focused reason to change. Invoice calculation and email delivery usually change for different reasons.
 
-### Q03. What is the Open/Closed Principle?
+### Q3. What is the Open/Closed Principle?
 
 **Answer:** Software should be open to useful extension while limiting changes to stable code. A strategy interface can let a new rule avoid a large conditional.
 
-### Q04. What is the Liskov Substitution Principle?
+### Q4. What is the Liskov Substitution Principle?
 
 **Answer:** A subtype should work where its base type is expected without breaking the base type's promises.
 
-### Q05. What is the Interface Segregation Principle?
+### Q5. What is the Interface Segregation Principle?
 
 **Answer:** Clients should not depend on methods they do not use. Small role-focused interfaces are often easier than one broad interface.
 
-### Q06. What is the Dependency Inversion Principle?
+### Q6. What is the Dependency Inversion Principle?
 
 **Answer:** High-level policy should depend on abstractions rather than concrete details. Constructor injection makes those dependencies visible.
 
-### Q07. Composition vs inheritance?
+### Q7. Composition vs inheritance?
 
 **Answer:** Composition supplies collaborators; inheritance specializes a base type. Prefer composition when behavior can vary independently or the subtype relationship is weak.
 
-### Q08. What is encapsulation?
+### Q8. What is encapsulation?
 
 **Answer:** Keeping object state and its rules together behind a clear interface, preventing callers from creating invalid states directly.
 
-### Q09. What is cohesion?
+### Q9. What is cohesion?
 
 **Answer:** How closely a class's responsibilities belong together. High cohesion usually makes a class easier to understand and change.
 
@@ -123,6 +123,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. When is an abstraction unnecessary?
 
 **Answer:** When it hides a simple operation, has no real variation, or adds more indirection than value. Wait for evidence before adding it.
+
+### Q31. What is the Repository pattern?
+
+**Answer:** It gives domain or application code a collection-like interface to data access.
+
+**Example:** An OrderRepository can hide SQL details.
+
+### Q32. How can a design reduce coupling?
+
+**Answer:** Depend on small stable contracts, keep responsibilities focused, and avoid unnecessary knowledge of other modules.
+
+**Example:** Pass an interface into a service instead of constructing a vendor client inside it.
+
+### Q33. What is the Unit of Work pattern?
+
+**Answer:** It tracks changes made during one business operation and coordinates their persistence together.
+
+**Example:** A transaction can commit a set of related entity changes.
+
+### Q34. What is the Null Object pattern?
+
+**Answer:** A harmless implementation of an interface that provides default behavior instead of returning null.
+
+**Example:** A no-op notifier can implement the notification interface.
+
+### Q35. What is CQRS?
+
+**Answer:** Command Query Responsibility Segregation uses separate models or paths for changing data and reading it.
+
+**Example:** Adopt it when read and write needs differ enough to justify the complexity.
+
+### Q36. What is an anti-pattern?
+
+**Answer:** A common approach that may look convenient but tends to cause recurring design problems.
+
+**Example:** A giant service class can become an anti-pattern.
+
+### Q37. What is feature envy?
+
+**Answer:** A code smell where a method uses another object's data more than its own object's behavior.
+
+**Example:** Move behavior closer to the data it naturally belongs with.
+
+### Q38. What is a code smell?
+
+**Answer:** A sign that code may be harder to understand or change, even if it still works.
+
+**Example:** A method with many unrelated responsibilities is a smell.
+
+### Q39. What does Tell, Don't Ask mean?
+
+**Answer:** Ask an object to perform behavior instead of pulling out its state and making decisions elsewhere.
+
+**Example:** Call `cart.checkout()` rather than editing its internals.
+
+### Q40. How do you decide whether to create an interface?
+
+**Answer:** Create one when it clarifies a meaningful boundary, variation, or test seam; avoid one-method wrappers with no purpose.
+
+**Example:** A payment-provider boundary may justify an interface.
 
 ## References
 

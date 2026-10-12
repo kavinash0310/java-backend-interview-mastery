@@ -2,7 +2,7 @@
 
 Choose one answer, then read the explanation and say why the other options do not fit.
 
-### Q06. Which collection is designed to keep insertion order and allow duplicates?
+### Q1. Which collection is designed to keep insertion order and allow duplicates?
 
 **Answer:** Choose one:
 
@@ -12,7 +12,7 @@ C. Map
 
 **Correct answer:** B. List. A List preserves a sequence and allows duplicates.
 
-### Q07. Average lookup by index in ArrayList?
+### Q2. Average lookup by index in ArrayList?
 
 **Answer:** Choose one:
 
@@ -22,7 +22,7 @@ C. O(n)
 
 **Correct answer:** A. O(1), because the backing array can be indexed directly.
 
-### Q08. What does String immutability mean?
+### Q3. What does String immutability mean?
 
 **Answer:** Choose one:
 
@@ -32,7 +32,7 @@ C. It cannot be stored in a collection
 
 **Correct answer:** A. Operations that appear to modify a String return another String.
 
-### Q09. What happens to a try-with-resources resource?
+### Q4. What happens to a try-with-resources resource?
 
 **Answer:** Choose one:
 
@@ -42,7 +42,7 @@ C. It retries on failure
 
 **Correct answer:** A. It closes when the block exits, including on exceptions.
 
-### Q10. Which creates an Optional from a possibly-null value?
+### Q5. Which creates an Optional from a possibly-null value?
 
 **Answer:** Choose one:
 
@@ -52,7 +52,7 @@ C. Optional.empty(value)
 
 **Correct answer:** B. Optional.ofNullable(value). Optional.of(null) throws.
 
-### Q11. Which is a terminal Stream operation?
+### Q6. Which is a terminal Stream operation?
 
 **Answer:** Choose one:
 
@@ -62,7 +62,7 @@ C. collect
 
 **Correct answer:** C. collect triggers pipeline processing and produces a result.
 
-### Q12. For object references, what does == compare?
+### Q7. For object references, what does == compare?
 
 **Answer:** Choose one:
 
@@ -72,7 +72,7 @@ C. Same hash code
 
 **Correct answer:** A. Whether both references point to the same object.
 
-### Q13. What does volatile provide?
+### Q8. What does volatile provide?
 
 **Answer:** Choose one:
 
@@ -82,7 +82,7 @@ C. Mutual exclusion for all methods
 
 **Correct answer:** A. Visibility; count++ is still not atomic.
 
-### Q14. What does synchronized provide on the same monitor?
+### Q9. What does synchronized provide on the same monitor?
 
 **Answer:** Choose one:
 
@@ -92,7 +92,7 @@ C. Thread creation
 
 **Correct answer:** A. Mutual exclusion and a happens-before visibility guarantee.
 
-### Q15. What is a benefit of constructor injection?
+### Q10. What is a benefit of constructor injection?
 
 **Answer:** Choose one:
 
@@ -102,7 +102,7 @@ C. It removes constructors
 
 **Correct answer:** A. It makes dependencies clear and helps tests instantiate the class.
 
-### Q16. Spring singleton scope is one instance per what?
+### Q11. Spring singleton scope is one instance per what?
 
 **Answer:** Choose one:
 
@@ -112,7 +112,7 @@ C. HTTP request
 
 **Correct answer:** A. A Spring IoC container, not every JVM.
 
-### Q17. What does @Repository commonly indicate?
+### Q12. What does @Repository commonly indicate?
 
 **Answer:** Choose one:
 
@@ -122,7 +122,7 @@ C. REST response body
 
 **Correct answer:** A. A persistence component; it may also translate persistence exceptions.
 
-### Q18. Which method is idempotent for intended effect?
+### Q13. Which method is idempotent for intended effect?
 
 **Answer:** Choose one:
 
@@ -132,7 +132,7 @@ C. CONNECT
 
 **Correct answer:** A. PUT. Repeating the same PUT has the same intended effect.
 
-### Q19. Which status commonly signals creation?
+### Q14. Which status commonly signals creation?
 
 **Answer:** Choose one:
 
@@ -142,7 +142,7 @@ C. 503
 
 **Correct answer:** A. 201 Created.
 
-### Q20. Which SQL expression counts all rows?
+### Q15. Which SQL expression counts all rows?
 
 **Answer:** Choose one:
 
@@ -152,7 +152,7 @@ C. SUM(*)
 
 **Correct answer:** A. COUNT(*).
 
-### Q21. Which clause filters groups?
+### Q16. Which clause filters groups?
 
 **Answer:** Choose one:
 
@@ -162,7 +162,7 @@ C. ORDER BY
 
 **Correct answer:** B. HAVING; WHERE filters input rows.
 
-### Q22. What does a foreign key help enforce?
+### Q17. What does a foreign key help enforce?
 
 **Answer:** Choose one:
 
@@ -172,7 +172,7 @@ C. Cached query
 
 **Correct answer:** A. A valid relationship, helping prevent orphan references.
 
-### Q23. A common cost of an index is?
+### Q18. A common cost of an index is?
 
 **Answer:** Choose one:
 
@@ -182,7 +182,7 @@ C. It guarantees every query is faster
 
 **Correct answer:** A. Indexes consume storage and make writes do more work.
 
-### Q24. What does a Kafka consumer group allow?
+### Q19. What does a Kafka consumer group allow?
 
 **Answer:** Choose one:
 
@@ -192,7 +192,7 @@ C. Messages bypass storage
 
 **Correct answer:** A. Group members share partition assignments.
 
-### Q25. What does Redis TTL do?
+### Q20. What does Redis TTL do?
 
 **Answer:** Choose one:
 
@@ -202,7 +202,7 @@ C. Sorts keys
 
 **Correct answer:** A. It sets how long a key remains before expiry.
 
-### Q26. What is JPA dirty checking?
+### Q21. What is JPA dirty checking?
 
 **Answer:** Choose one:
 
@@ -212,7 +212,7 @@ C. Runs a unit test
 
 **Correct answer:** A. It detects changes and writes updates during synchronization.
 
-### Q27. What does atomicity in ACID mean?
+### Q22. What does atomicity in ACID mean?
 
 **Answer:** Choose one:
 
@@ -222,7 +222,7 @@ C. Transactions never wait
 
 **Correct answer:** A. The transaction applies as a unit or is rolled back.
 
-### Q28. Which SQL command removes rows but keeps the table?
+### Q23. Which SQL command removes rows but keeps the table?
 
 **Answer:** Choose one:
 
@@ -232,7 +232,7 @@ C. ALTER TABLE
 
 **Correct answer:** B. DELETE removes selected or all rows but keeps the definition.
 
-### Q29. Why validate API input before saving?
+### Q24. Why validate API input before saving?
 
 **Answer:** Choose one:
 
@@ -242,7 +242,7 @@ C. Remove need for backups
 
 **Correct answer:** A. Validation protects business rules before persistence.
 
-### Q30. What is integer division 7 / 2 in Java?
+### Q25. What is integer division 7 / 2 in Java?
 
 **Answer:** Choose one:
 
@@ -252,7 +252,7 @@ C. 4
 
 **Correct answer:** B. With two integer operands, the fractional part is discarded.
 
-### Q31. Which access modifier makes a member private to its declaring class?
+### Q26. Which access modifier makes a member private to its declaring class?
 
 **Answer:** Choose one:
 
@@ -261,6 +261,90 @@ B. protected
 C. private
 
 **Correct answer:** C. private, subject to Java's nested-class access rules.
+
+### Q27. Given `[2, 7, 11, 15]`, what pair adds to 9?
+
+**Answer:** Return the values 2 and 7, at indices 0 and 1. A hash map can find the complement in one pass.
+
+**Example:** For each value x, check whether `target - x` was already seen.
+
+### Q28. Which collection does not allow duplicate elements?
+
+**Answer:** Set.
+
+**Example:** A. List  B. Set  C. ArrayList — Correct: B.
+
+### Q29. What is the time complexity of looking up an ArrayList element by index?
+
+**Answer:** O(1), because the index directly addresses the backing array.
+
+**Example:** Searching by value is different and usually O(n).
+
+### Q30. What is the time complexity of binary search on a sorted array?
+
+**Answer:** O(log n).
+
+**Example:** Each comparison halves the remaining search range.
+
+### Q31. What does `String.equals()` compare?
+
+**Answer:** String contents.
+
+**Example:** `new String("hi").equals("hi")` is true.
+
+### Q32. What does `HashMap.get(key)` return when the key is absent?
+
+**Answer:** It returns null, unless a mapping explicitly stores null, so use `containsKey` when the distinction matters.
+
+**Example:** A. 0  B. null  C. throws always — Correct: B.
+
+### Q33. Which keyword prevents a method from being overridden?
+
+**Answer:** `final`.
+
+**Example:** `final void save()` cannot be overridden by a subclass.
+
+### Q34. What is the correct way to compare two strings for content?
+
+**Answer:** Use `equals()` (or `Objects.equals` when either may be null).
+
+**Example:** `"java".equals(input)` is null-safe for input.
+
+### Q35. Which SQL clause filters rows before grouping?
+
+**Answer:** `WHERE`.
+
+**Example:** `HAVING` filters groups after aggregation.
+
+### Q36. Which SQL clause filters grouped results?
+
+**Answer:** `HAVING`.
+
+**Example:** `HAVING COUNT(*) > 1`.
+
+### Q37. What is the purpose of a primary key?
+
+**Answer:** To uniquely identify a row and disallow null key values.
+
+**Example:** Each order can have a unique `order_id`.
+
+### Q38. What is the output of `"a" + 1 + 2` in Java?
+
+**Answer:** `a12`, because concatenation proceeds left to right after the String operand.
+
+**Example:** `1 + 2 + "a"` evaluates to `3a`.
+
+### Q39. How many times does a `for` loop run from `i = 0` while `i < 3`?
+
+**Answer:** Three times: for i equal to 0, 1, and 2.
+
+**Example:** The condition is false when i reaches 3.
+
+### Q40. Which HTTP status means a request succeeded but has no response body?
+
+**Answer:** 204 No Content.
+
+**Example:** Use 201 Created when a new resource was created.
 
 ## References
 

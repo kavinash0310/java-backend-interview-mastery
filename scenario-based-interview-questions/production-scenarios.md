@@ -1,44 +1,44 @@
-# Production Scenario Practice: 30 Easy Q&A
+# Production Scenario Practice: 40 Easy Q&A
 
 Use a calm sequence: clarify impact, inspect evidence, mitigate safely, find the cause, and prevent recurrence. Adapt each answer to the system and your own experience.
 
-### Q01. Several threads access a HashMap. What could go wrong?
+### Q1. Several threads access a HashMap. What could go wrong?
 
 **Answer:** Concurrent updates can be lost or observed inconsistently because HashMap does not coordinate mutation. Use a concurrent map for independent operations or a lock for a multi-step invariant.
 
 **Example:** See the [Concurrency guide](../multithreading-concurrency/interview-questions.md).
 
-### Q02. Two payment requests arrive together and charge twice. What do you do?
+### Q2. Two payment requests arrive together and charge twice. What do you do?
 
 **Answer:** Give the operation an idempotency key and claim it atomically in durable storage before charging. A process-local lock cannot coordinate multiple instances.
 
 **Example:** See the [API design guide](../system-design-architecture/interview-questions.md).
 
-### Q03. Thread count spikes and CPU usage rises. How do you investigate?
+### Q3. Thread count spikes and CPU usage rises. How do you investigate?
 
 **Answer:** Compare thread dumps, executor queues, CPU profiles, and request volume to see whether threads are running, blocked, or retrying. Stop unbounded thread creation.
 
-### Q04. Two requests update the same database row. How do you prevent lost updates?
+### Q4. Two requests update the same database row. How do you prevent lost updates?
 
 **Answer:** Use a version field for optimistic locking or a database lock when conflicts are frequent and the critical section is short. Report or retry conflicts rather than overwriting silently.
 
-### Q05. Startup grows from 15 seconds to two minutes. What is your first move?
+### Q5. Startup grows from 15 seconds to two minutes. What is your first move?
 
 **Answer:** Compare startup timing across bean creation, scanning, migrations, and external calls. Determine whether the delay is CPU, network, or waiting before changing settings.
 
-### Q06. A circular dependency appears after deployment. How do you resolve it?
+### Q6. A circular dependency appears after deployment. How do you resolve it?
 
 **Answer:** Trace the responsibilities and extract a smaller collaborator or move orchestration into a third service. Lazy injection can hide a cycle without fixing design.
 
-### Q07. LazyInitializationException appears only in production. Why?
+### Q7. LazyInitializationException appears only in production. Why?
 
 **Answer:** Code accesses a lazy relationship after the persistence context closes. Load required data inside the transaction with a deliberate query or return a DTO.
 
-### Q08. A transaction partly updates data although rollback was expected. What do you check?
+### Q8. A transaction partly updates data although rollback was expected. What do you check?
 
 **Answer:** Check whether the failure is checked, caught, or outside the proxy, and confirm writes use the same transaction manager. Spring defaults differ by exception type.
 
-### Q09. The application throws OutOfMemoryError. What evidence do you collect?
+### Q9. The application throws OutOfMemoryError. What evidence do you collect?
 
 **Answer:** Identify heap versus native or thread exhaustion from the error, capture a dump if safe, and compare trends and GC logs. Look for retained objects or unbounded resources.
 
@@ -125,6 +125,66 @@ Use a calm sequence: clarify impact, inspect evidence, mitigate safely, find the
 ### Q30. New and old service versions disagree on an event field. How do you restore compatibility?
 
 **Answer:** Make the schema additive, deploy consumers accepting both forms, then roll out producers and remove old fields after compatibility is confirmed. Check contracts in CI.
+
+### Q31. A release makes error rates rise. What do you do first?
+
+**Answer:** Confirm scope and impact, compare with the release timeline, then roll back or disable the change if that is the safest mitigation.
+
+**Example:** Preserve logs and metrics before the rollback.
+
+### Q32. A user reports one failed payment but logs show success. How do you investigate?
+
+**Answer:** Trace by payment or request ID across the API, provider callback, and database before retrying anything.
+
+**Example:** Check whether a timeout hid a provider success.
+
+### Q33. A queue is growing quickly. What do you check?
+
+**Answer:** Compare arrival and processing rates, consumer health, retries, and downstream bottlenecks.
+
+**Example:** Scale consumers only if the downstream system can handle more load.
+
+### Q34. A deploy starts failing readiness probes. What do you inspect?
+
+**Answer:** Check startup logs, dependency readiness, probe path and timing, and recent configuration or image changes.
+
+**Example:** Use a startup probe if initialization legitimately takes longer.
+
+### Q35. An API returns 500 only for one customer. How do you debug?
+
+**Answer:** Reproduce with that request context safely, compare data shape and tenant configuration, and inspect correlated logs.
+
+**Example:** Mask sensitive fields when capturing an example.
+
+### Q36. A retry creates a duplicate order. What design change helps?
+
+**Answer:** Give each client operation an idempotency key and enforce uniqueness at the durable boundary.
+
+**Example:** Return the original order result for a repeated key.
+
+### Q37. A database pool is exhausted but database CPU is low. What do you check?
+
+**Answer:** Look for long-held connections, slow transactions, blocked queries, and leaked connections.
+
+**Example:** Compare active connections with request traces.
+
+### Q38. A dashboard shows high average latency but normal p95. What could explain it?
+
+**Answer:** Check aggregation windows, sample counts, outliers, and whether the dashboard uses the same endpoint and time range.
+
+**Example:** A few extreme values can move an average.
+
+### Q39. A customer sees another user's data. What is the immediate response?
+
+**Answer:** Contain exposure, preserve evidence, notify the responsible incident and security teams, and identify affected records and requests.
+
+**Example:** Do not reproduce using real customer data unnecessarily.
+
+### Q40. A scheduled job skipped a run. How do you respond?
+
+**Answer:** Check scheduler state, ownership/leader election, last-run metadata, and job logs; rerun only if the operation is safe.
+
+**Example:** Use an idempotent job key to prevent duplicate effects.
 
 ## References
 

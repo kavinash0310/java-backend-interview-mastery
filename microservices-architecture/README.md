@@ -59,7 +59,7 @@ Use descriptive lowercase kebab-case filenames, for example `microservices-archi
 
 ## Question index
 
-- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
+- [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [Microservices interview questions](interview-questions.md)
 
 ## Related modules

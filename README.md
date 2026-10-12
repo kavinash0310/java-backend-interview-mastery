@@ -6,13 +6,13 @@ A structured, practical question bank for learning Java backend development and 
 
 Start with the learning path below, choose a module, and open its beginner Q&A supplement. Use the module's deeper answer pages and linked references when you want more detail.
 
-> **Repository status:** Every course module now reaches at least 30 distinct questions across its beginner Q&A supplement and existing deep-dive answers. The quick pages use plain language, examples where useful, and primary references.
+> **Repository status:** Every course module has a self-contained quick Q&A page with 40 numbered questions, clear answers, examples or code where useful, and references for further study.
 
 ## Course map and progress
 
 Mark a module complete for your own study as you finish its material.
 
-| Module | Guide | Quick Q&A | Scope | Progress |
+| Module | Guide | Quick Q&A (40 each) | Scope | Progress |
 |---|---|---|---|
 | 01 | [Core Java](core-java/README.md) | [Quick Q&A](core-java/easy-interview-questions.md) | Build fluency in the Java language and standard library, from syntax and object-oriented design through collections and modern Java features. | [ ] |
 | 02 | [Multithreading and Concurrency](multithreading-concurrency/README.md) | [Quick Q&A](multithreading-concurrency/easy-interview-questions.md) | Understand how Java tasks run concurrently, how shared state is coordinated, and how to build reliable asynchronous work. | [ ] |

@@ -2,39 +2,39 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What is a container?
+### Q1. What is a container?
 
 **Answer:** It runs an application with its user-space dependencies while sharing the host operating-system kernel. It is isolated but not a full virtual machine.
 
-### Q02. What is a Docker image?
+### Q2. What is a Docker image?
 
 **Answer:** A packaged, read-only template used to create containers, including app files and declared runtime pieces.
 
-### Q03. Image vs container?
+### Q3. Image vs container?
 
 **Answer:** An image is the template; a container is a running or stopped instance created from it.
 
-### Q04. What is a Dockerfile?
+### Q4. What is a Dockerfile?
 
 **Answer:** Instructions for building an image, such as choosing a base image, copying files, and setting the startup command.
 
-### Q05. What is a Docker layer?
+### Q5. What is a Docker layer?
 
 **Answer:** A reusable result of an image build step. Stable steps can be placed earlier to improve build-cache reuse.
 
-### Q06. Why choose a small base image?
+### Q6. Why choose a small base image?
 
 **Answer:** It can reduce download size and software to patch. It still needs the runtime and debugging support the team requires.
 
-### Q07. What is a multi-stage build?
+### Q7. What is a multi-stage build?
 
 **Answer:** Separate build and runtime stages so compilers and temporary files can be omitted from the final image.
 
-### Q08. CMD vs ENTRYPOINT?
+### Q8. CMD vs ENTRYPOINT?
 
 **Answer:** ENTRYPOINT defines the main executable; CMD provides default command or arguments. Together they specify startup behavior.
 
-### Q09. Why run containers as non-root?
+### Q9. Why run containers as non-root?
 
 **Answer:** A non-root process has less access if compromised. Set file permissions and runtime config for that user.
 
@@ -121,6 +121,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. What is a rollback?
 
 **Answer:** Restoring a known-good release or configuration when a new change harms behavior. Preserve compatibility for schema changes.
+
+### Q31. What is a container registry?
+
+**Answer:** A service that stores and distributes container images.
+
+**Example:** Pull a versioned image from a private registry.
+
+### Q32. Why tag images with immutable versions?
+
+**Answer:** A fixed tag or digest makes it clear which exact build is deployed.
+
+**Example:** Deploy a commit-based tag or image digest.
+
+### Q33. What is a Kubernetes ReplicaSet?
+
+**Answer:** A controller that keeps the requested number of matching Pods running.
+
+**Example:** A Deployment manages ReplicaSets during updates.
+
+### Q34. What is a Kubernetes Ingress?
+
+**Answer:** A set of rules for routing external HTTP or HTTPS traffic to cluster services.
+
+**Example:** An ingress controller implements those rules.
+
+### Q35. What is a Kubernetes Job?
+
+**Answer:** A controller for work that should run to completion rather than serve continuously.
+
+**Example:** Run a one-time data migration as a Job.
+
+### Q36. What is a CronJob?
+
+**Answer:** A Kubernetes resource that starts Jobs on a schedule.
+
+**Example:** Use it for a periodic cleanup task.
+
+### Q37. What does ImagePullBackOff mean in Kubernetes?
+
+**Answer:** The kubelet cannot pull the requested image and is retrying with delays.
+
+**Example:** Check the image name, registry access, and pull credentials.
+
+### Q38. What is a container health check?
+
+**Answer:** A probe that reports whether the process or application is functioning as expected.
+
+**Example:** A health endpoint can be used for readiness.
+
+### Q39. Why keep secrets out of an image?
+
+**Answer:** Images are copied and retained, so embedded credentials can spread and remain exposed.
+
+**Example:** Inject secrets at runtime through a managed secret mechanism.
+
+### Q40. What is infrastructure as code?
+
+**Answer:** A practice of describing infrastructure in version-controlled, repeatable configuration.
+
+**Example:** Review an infrastructure change like application code.
 
 ## References
 

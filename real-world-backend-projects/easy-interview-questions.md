@@ -2,39 +2,39 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What should a project README explain?
+### Q1. What should a project README explain?
 
 **Answer:** The problem, features, architecture, how to run it, configuration, and how to test it. A new developer should be able to start without guessing.
 
-### Q02. How do you turn a requirement into API endpoints?
+### Q2. How do you turn a requirement into API endpoints?
 
 **Answer:** Identify resources and user actions, then define methods, paths, fields, response shapes, and errors. Check that the contract supports the user journey.
 
-### Q03. What belongs in a project data model?
+### Q3. What belongs in a project data model?
 
 **Answer:** Entities, identifiers, relationships, constraints, and fields needed for use cases. Express business rules instead of relying only on application checks.
 
-### Q04. How would you design an employee management backend?
+### Q4. How would you design an employee management backend?
 
 **Answer:** Separate employees, departments, and roles; define authorized CRUD operations, validate identifiers and status, and keep a history of important changes.
 
-### Q05. How would you design product and inventory data?
+### Q5. How would you design product and inventory data?
 
 **Answer:** Keep product descriptions separate from stock quantities or movements. Record changes as controlled operations so concurrent orders cannot oversell.
 
-### Q06. How would you design an order workflow?
+### Q6. How would you design an order workflow?
 
 **Answer:** Track explicit states such as created, paid, fulfilled, and cancelled. Validate allowed transitions and record who or what caused them.
 
-### Q07. How should a payment integration handle timeouts?
+### Q7. How should a payment integration handle timeouts?
 
 **Answer:** Treat a timeout as an unknown outcome; use provider idempotency and query or receive confirmation before retrying a charge.
 
-### Q08. How would you design a notification service?
+### Q8. How would you design a notification service?
 
 **Answer:** Validate recipients and templates, queue delivery, retry transient failures, and record status without blocking the main user action.
 
-### Q09. What should an authentication project include?
+### Q9. What should an authentication project include?
 
 **Answer:** Account creation, safe password storage, login, session or token lifecycle, recovery, and authorization. Protect secrets and avoid revealing account existence.
 
@@ -121,6 +121,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. How do you present a project in an interview?
 
 **Answer:** Start with user problem and request flow, then architecture, your role, a hard decision, and a result. Pause for follow-up.
+
+### Q31. What is a use case in a backend project?
+
+**Answer:** A user or system goal expressed as a business operation the backend supports.
+
+**Example:** Place an order is a use case.
+
+### Q32. What should an API request validation rule check?
+
+**Answer:** Required fields, formats, ranges, and relationships before business logic writes data.
+
+**Example:** Quantity must be greater than zero.
+
+### Q33. How do you avoid exposing passwords in a project?
+
+**Answer:** Store only a strong password hash and never return or log the credential.
+
+**Example:** Use a password encoder at registration.
+
+### Q34. What is a repository layer in a project?
+
+**Answer:** The part that reads and writes persisted data behind a focused interface.
+
+**Example:** An OrderRepository can load an order by ID.
+
+### Q35. What should a service layer contain?
+
+**Answer:** Business rules and coordination for a use case, separate from HTTP and database details.
+
+**Example:** An order service checks stock before creating an order.
+
+### Q36. What should an API response DTO include?
+
+**Answer:** Only fields clients need, with clear names and stable types.
+
+**Example:** Return order ID and status without exposing internal entity fields.
+
+### Q37. How do you handle a missing record?
+
+**Answer:** Return a clear not-found result and map it consistently to the API contract.
+
+**Example:** A missing order commonly becomes HTTP 404.
+
+### Q38. What should a project seed-data setup do?
+
+**Answer:** Create predictable local or test data without overwriting real production data.
+
+**Example:** Use a dev profile for sample accounts.
+
+### Q39. How would you add an audit trail to a backend project?
+
+**Answer:** Record who changed what and when in a protected, append-oriented history with a clear retention policy.
+
+**Example:** Store actor ID, action, entity ID, timestamp, and request ID.
+
+### Q40. What makes a backend project interview-ready?
+
+**Answer:** A working run guide, clear API, tests, sample configuration, and an explanation of key trade-offs.
+
+**Example:** Show one complete request flow end to end.
 
 ## References
 

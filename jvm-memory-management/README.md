@@ -55,7 +55,7 @@ Use descriptive lowercase kebab-case filenames, for example `jvm-memory-manageme
 
 ## Question index
 
-- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
+- [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [JVM and memory troubleshooting questions](interview-questions.md)
 
 ## Related modules

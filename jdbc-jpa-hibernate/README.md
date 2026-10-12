@@ -58,7 +58,7 @@ Use descriptive lowercase kebab-case filenames, for example `jdbc-jpa-hibernate/
 
 ## Question index
 
-- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
+- [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - [JPA and Hibernate interview questions](interview-questions.md)
 
 ## Related modules

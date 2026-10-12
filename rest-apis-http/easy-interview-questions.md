@@ -2,41 +2,41 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What is HTTP?
+### Q1. What is HTTP?
 
 **Answer:** The protocol clients and servers use to exchange requests and responses. A request has a method, target, headers, and sometimes a body.
 
-### Q02. What does REST mean?
+### Q2. What does REST mean?
 
 **Answer:** An architectural style for networked systems. A REST API exposes resources through URLs and uses standard HTTP semantics.
 
-### Q03. What is a resource in a REST API?
+### Q3. What is a resource in a REST API?
 
 **Answer:** A thing the API exposes, such as a customer or order. A URL identifies it and HTTP methods describe actions.
 
 **Example:** GET /orders/42 identifies one order.
 
-### Q04. GET vs POST?
+### Q4. GET vs POST?
 
 **Answer:** GET retrieves a representation and should not change the resource. POST asks the server to process submitted data, often creating a resource or action.
 
-### Q05. PUT vs PATCH?
+### Q5. PUT vs PATCH?
 
 **Answer:** PUT replaces state at a known URI; PATCH applies a partial change. Document the contract your API implements.
 
-### Q06. What does DELETE mean in HTTP?
+### Q6. What does DELETE mean in HTTP?
 
 **Answer:** It requests removal of the target resource association. Repeating the request should have the same intended effect, though responses can differ.
 
-### Q07. What is an HTTP status code?
+### Q7. What is an HTTP status code?
 
 **Answer:** A three-digit result that tells the client the broad outcome. 201 means created; 404 means not found.
 
-### Q08. When should an API return 200?
+### Q8. When should an API return 200?
 
 **Answer:** When the request succeeded and the response includes a representation or result. Use another status when it fits better, such as 201 or 204.
 
-### Q09. When should an API return 201 Created?
+### Q9. When should an API return 201 Created?
 
 **Answer:** When the request successfully creates a resource. A Location header can identify the new resource.
 
@@ -123,6 +123,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. What is a safe HTTP method?
 
 **Answer:** A method intended to read information without changing server state, such as GET. Servers may still log or measure the request.
+
+### Q31. What does idempotent mean for an HTTP request?
+
+**Answer:** Repeating the same request has the same intended effect as doing it once.
+
+**Example:** PUT is intended to be idempotent; POST often is not.
+
+### Q32. What is an idempotency key?
+
+**Answer:** A client-provided unique key that lets a server recognize retries of the same operation.
+
+**Example:** A payment API can store the result for a request key.
+
+### Q33. What is a 409 Conflict response?
+
+**Answer:** It reports that a request conflicts with the current state of the resource.
+
+**Example:** A duplicate username may return 409.
+
+### Q34. What is a 422 response commonly used for?
+
+**Answer:** It indicates the request was understood but its content failed semantic validation.
+
+**Example:** A well-formed JSON body with an invalid date range.
+
+### Q35. What is a 429 response?
+
+**Answer:** The client exceeded a rate limit; the response may include a retry hint.
+
+**Example:** Honor `Retry-After` when the server sends it.
+
+### Q36. Why should APIs use consistent error formats?
+
+**Answer:** Clients can handle failures predictably without writing endpoint-specific parsing logic.
+
+**Example:** Include a code, message, and request ID.
+
+### Q37. What is a conditional request with If-None-Match?
+
+**Answer:** The client asks whether a representation changed since its ETag; the server can return 304 when unchanged.
+
+**Example:** Browsers can reuse a cached response.
+
+### Q38. Why use HTTPS for an API?
+
+**Answer:** TLS protects data in transit and authenticates the server endpoint.
+
+**Example:** Bearer tokens should be sent over HTTPS.
+
+### Q39. What is a webhook?
+
+**Answer:** An HTTP callback sent by one system to notify another about an event.
+
+**Example:** Verify the sender and make webhook handling idempotent.
+
+### Q40. What is an API gateway?
+
+**Answer:** A front door that can route requests and apply shared concerns such as authentication, limits, or logging.
+
+**Example:** Keep business rules in the owning service.
 
 ## References
 

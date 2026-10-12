@@ -2,39 +2,39 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What is Maven?
+### Q1. What is Maven?
 
 **Answer:** A build and dependency-management tool configured mainly through pom.xml, with a standard project structure and lifecycle.
 
-### Q02. What is a Maven POM?
+### Q2. What is a Maven POM?
 
 **Answer:** The Project Object Model is the pom.xml description of a project, its dependencies, plugins, and build settings.
 
-### Q03. What is a Maven lifecycle?
+### Q3. What is a Maven lifecycle?
 
 **Answer:** An ordered set of build phases. Running a later phase also runs earlier phases that lead to it.
 
-### Q04. What does mvn test do?
+### Q4. What does mvn test do?
 
 **Answer:** Runs the lifecycle through test, including earlier work such as compiling sources.
 
-### Q05. What does mvn package do?
+### Q5. What does mvn package do?
 
 **Answer:** Runs through package and creates a distributable artifact, such as a JAR.
 
-### Q06. What is a dependency scope?
+### Q6. What is a dependency scope?
 
 **Answer:** It describes where a dependency is available, such as compile, test, or runtime. Choose the narrowest fitting scope.
 
-### Q07. What is a transitive dependency?
+### Q7. What is a transitive dependency?
 
 **Answer:** A dependency brought in by another dependency. Inspect the graph when versions or conflicts are unexpected.
 
-### Q08. What is a Maven BOM?
+### Q8. What is a Maven BOM?
 
 **Answer:** A Bill of Materials centralizes compatible dependency versions, often through dependencyManagement.
 
-### Q09. What is a Maven plugin?
+### Q9. What is a Maven plugin?
 
 **Answer:** It adds build goals such as compilation, testing, packaging, or code checks. Pin versions for repeatable builds.
 
@@ -121,6 +121,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. What makes a build reproducible?
 
 **Answer:** The same source and declared inputs produce the same or equivalent artifact. Pin tool and dependency versions.
+
+### Q31. What is a build artifact?
+
+**Answer:** A generated output such as a JAR that can be versioned, tested, and deployed.
+
+**Example:** Publish the same tested JAR to each environment.
+
+### Q32. What is a SNAPSHOT dependency in Maven?
+
+**Answer:** A changing development version that may be updated between builds.
+
+**Example:** Avoid it for a release intended to be reproducible.
+
+### Q33. What does a clean build do?
+
+**Answer:** It removes generated outputs before compiling and packaging again.
+
+**Example:** `mvn clean package`.
+
+### Q34. What is semantic versioning?
+
+**Answer:** A versioning convention using major, minor, and patch numbers to signal compatibility changes.
+
+**Example:** A breaking API change generally needs a major version bump.
+
+### Q35. What is a Git working tree?
+
+**Answer:** The checked-out files where edits are made before they are committed.
+
+**Example:** Use `git status` to see changes.
+
+### Q36. What is the Git staging area?
+
+**Answer:** The place where selected changes are prepared for the next commit.
+
+**Example:** `git add` stages chosen files.
+
+### Q37. What is .gitignore for?
+
+**Answer:** It lists generated or local files Git should not track.
+
+**Example:** Ignore `target/` and local IDE settings.
+
+### Q38. What is a fast-forward merge?
+
+**Answer:** A branch pointer moves forward because its history contains all commits from the target branch.
+
+**Example:** No merge commit is needed when histories are linear.
+
+### Q39. What is a protected branch?
+
+**Answer:** A branch with rules that limit direct pushes or require checks and reviews.
+
+**Example:** Protect `main` from unreviewed changes.
+
+### Q40. What is a lockfile?
+
+**Answer:** A file that records resolved dependency versions to make installs more repeatable.
+
+**Example:** Commit the lockfile when the build tool uses one.
 
 ## References
 

@@ -51,7 +51,7 @@ Use descriptive lowercase kebab-case filenames, for example `scenario-based-inte
 
 ## Question index
 
-- [Beginner-friendly Q&A for quick revision](production-scenarios.md)
+- [40-question beginner-friendly Q&A for quick revision](production-scenarios.md)
 - [Production scenario practice](production-scenarios.md)
 
 ## Related modules

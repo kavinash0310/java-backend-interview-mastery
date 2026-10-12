@@ -2,39 +2,39 @@
 
 Quick revision answers. Try answering in your own words before reading the explanation.
 
-### Q01. What is a unit test?
+### Q1. What is a unit test?
 
 **Answer:** It checks a small piece of behavior in isolation, usually one class or function. It should be fast and easy to diagnose.
 
-### Q02. What is an integration test?
+### Q2. What is an integration test?
 
 **Answer:** It checks components working together across a boundary, such as app code with a database or web framework.
 
-### Q03. What is an end-to-end test?
+### Q3. What is an end-to-end test?
 
 **Answer:** It exercises a user-visible flow through most of the system. It gives broad confidence but is slower and may be fragile.
 
-### Q04. What is the test pyramid?
+### Q4. What is the test pyramid?
 
 **Answer:** A guideline to use many fast focused tests, fewer integration tests, and a small number of end-to-end tests.
 
-### Q05. What is an assertion?
+### Q5. What is an assertion?
 
 **Answer:** It checks whether an observed result matches expected behavior. A useful failure message says what differed.
 
-### Q06. What is a test fixture?
+### Q6. What is a test fixture?
 
 **Answer:** The data and setup a test needs. Keep it small and make important values obvious.
 
-### Q07. What is a test double?
+### Q7. What is a test double?
 
 **Answer:** A substitute used in a test, such as a stub, mock, fake, or spy. Use one when it improves isolation or control.
 
-### Q08. Stub vs mock?
+### Q8. Stub vs mock?
 
 **Answer:** A stub provides predetermined answers; a mock can verify calls. Prefer checking outcomes unless the interaction itself is behavior.
 
-### Q09. What is a fake in testing?
+### Q9. What is a fake in testing?
 
 **Answer:** A lightweight working implementation used in tests, such as an in-memory repository. It should preserve behavior the test depends on.
 
@@ -123,6 +123,66 @@ Quick revision answers. Try answering in your own words before reading the expla
 ### Q30. What is a good test name?
 
 **Answer:** It states the behavior and condition, such as rejects an expired token, so a failure is understandable.
+
+### Q31. What is a regression test?
+
+**Answer:** A test that protects behavior that previously worked, especially after a bug fix.
+
+**Example:** Add a test for the bug's exact failing input.
+
+### Q32. What is boundary-value analysis?
+
+**Answer:** A test-design technique that checks values at and near the edges of valid input ranges.
+
+**Example:** For age 18+, test 17, 18, and 19.
+
+### Q33. When should you mock a dependency?
+
+**Answer:** Mock an external boundary when its behavior matters to the test, not every internal call by default.
+
+**Example:** Mock a payment provider in a service test.
+
+### Q34. What makes a unit test useful?
+
+**Answer:** It checks one meaningful behavior, runs quickly, and clearly reports what failed.
+
+**Example:** Assert returned status and saved amount.
+
+### Q35. What is a test data builder?
+
+**Answer:** A helper that creates test objects with sensible defaults and lets a test override only relevant fields.
+
+**Example:** `anOrder().withStatus(PAID).build()`
+
+### Q36. What is mutation testing?
+
+**Answer:** A technique that changes code slightly to see whether tests catch the altered behavior.
+
+**Example:** A surviving mutation may reveal a missing assertion.
+
+### Q37. What is a smoke test?
+
+**Answer:** A small set of checks confirming that a deployed app starts and core paths work.
+
+**Example:** Call health and one basic API endpoint.
+
+### Q38. What is equivalence partitioning?
+
+**Answer:** A technique that groups inputs expected to behave alike and tests representative values from each group.
+
+**Example:** Test one valid and one invalid email format class.
+
+### Q39. Why avoid testing private methods directly?
+
+**Answer:** Tests should usually verify public behavior so internal refactoring does not break tests unnecessarily.
+
+**Example:** Exercise the private logic through the public operation.
+
+### Q40. What is a system test?
+
+**Answer:** A test that checks a complete system or major assembled flow against its requirements.
+
+**Example:** Run the built app and verify a user journey end to end.
 
 ## References
 

@@ -77,7 +77,7 @@ Use descriptive lowercase kebab-case filenames, for example `core-java/some-topi
 
 ## Question index
 
-- [Beginner-friendly Q&A for quick revision](easy-interview-questions.md)
+- [40-question beginner-friendly Q&A for quick revision](easy-interview-questions.md)
 - **strings and core object contracts:** [== vs equals()](strings-and-core-object-contracts/reference-equality-vs-object-equality.md)
 - **object oriented programming:** [Interface vs abstract class](object-oriented-programming/interface-vs-abstract-class.md)
 - **object oriented programming:** [The four pillars of OOP](object-oriented-programming/four-pillars-of-object-oriented-programming.md)
